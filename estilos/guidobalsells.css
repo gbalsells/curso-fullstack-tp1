@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  background-color: blueviolet;
+  font-size: 90px;
+}
+
+h2 {
+  background-color: red !important;
+}
+
+.primero {
+  background-color: brown;
+}
+
+.segundo {
+  background-color: cadetblue;
+  color: white;
+}
+
+#tercerTitulo {
+  background-color: black;
+  color: beige;
+}
+
+a[href="http://www.googl2e.com"] {
+  color: white;
+}
+
+.caja {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  border: 10px solid black;
+  padding: 20px;
+  margin: 30px 20px 10px 25px;
+}
+
+.caja__interna {
+  background-color: wheat;
+  width: 70vw;
+  height: 70vh;
+}
+
+.caja__doble {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: rgba(0, 0, 0);
+  text-decoration: underline;
+  text-align: center;
+  text-shadow: 10px 10px 10px black;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: white;
+}
