@@ -1,0 +1,102 @@
+table,tr,th, td,
+th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+p, b  {
+    color: #3226DA;
+}
+
+a {
+    text-decoration:none;
+}
+
+h1{
+    font-weight: bold;
+    color: #008185;
+    text-decoration: underline;
+    text-shadow: 10px -1px 11px #008185;
+}
+
+h3 {
+font-weight: bold;
+color: whitesmoke;
+background-color: blue ;
+}
+
+h4 {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-weight: bold;
+    color: blue;
+    background-color: yellow ;
+}
+
+ /* selector por clase */
+ .container{
+    margin: 60px;
+    border: solid #2312CF;
+    padding: 30px;
+ }
+ .caja-principal{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+ }
+
+ .nav{
+    text-align: right;
+ }
+.bio {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1B147F;
+   }
+
+.form{
+    color: blue;
+    background-color: #2312CF ;
+}
+
+.form__campo{
+    font-size: 13px;
+    font-style:unset;
+    font-weight: bold;
+    color: #EAE426 ;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.momentos{
+    border: 10px solid #EAE426;
+    padding: 35px;
+}
+.textoImagenes{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.img{
+    width: 20vw;
+    height: 20vh;
+}
+
+.footer{
+    border: 5px solid #02010E;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+ /* Selector de id */
+#formmje{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 300;
+    color: #161343;
+}
