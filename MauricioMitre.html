@@ -12,10 +12,10 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
-<body>
+<body class>
     <header>
         <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
+            <div class="container d-flex justify-content-evenly">
                 <a>Trabajo Practico 2</a>
                 <a>Mauricio Mitre</a>
                 <a href="" target="-blank">Instagram</a>
@@ -26,10 +26,12 @@
         </nav>
     </header>
     <section>
+        
         <main>
             <section>
+                <h1>Mauricio Mitre</h1>
+                <p>Datos personales</p>
                 <ul>
-                    <li>Nombre: Mauricio Mitre</li>
                     <li>Edad: 21</li>
                     <li>Carrera: ING. en computacion</li>
                     <li>Mail: mitremauricio@gmail.com</li>
@@ -39,14 +41,51 @@
                 <p>Un poco mas de informacion</p>
                 <ul>
                     <li>Tecnico Electronico</li>
+                    <li>Primario: Colegio Belgrano</li>
                     <li>Secundario: Lorenzo Massa</li>
-                    <li>Carrera: ING. en computacion</li>
-                    <li>Mail: mitremauricio@gmail.com</li>
+                    <li>Ingles: B1 Aticana</li>
                 </ul>
             </section>
+            <hr>
+            <form action="">
+                <fieldset>
+                    <legend>Contacto</legend>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" placeholder="Mauricio">
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" placeholder="Mitre">
+                    </div>
+                    <div>
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" placeholder="381-4093864">
+                    </div>
+                    <div>
+                        <label for="mail">Mail:</label>
+                        <input type="mail" placeholder="mitremauricio@gmail.com">
+                    </div>
+                    <div>
+                        <label for="tipo de mensaje">Tipo de mensaje:</label>
+                        <select>
+                            <option>Trabajo</option>
+                            <option>Charla</option>
+                            <option>Estudio</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <input type="text" placeholder="...">
+                    </div>
+                    <button type="submit">Enviar datos</button>
+                </fieldset>
+            </form>
+            <hr>
         </main>
-        <figure>
-            <img  src="https://geoinnova.org/wp-content/uploads/2021/08/logos.png" class="rounded mx-auto d-block" alt="">
+        <figure>           
+            <img src="https://geoinnova.org/wp-content/uploads/2021/08/logos.png"
+                class="rounded mx-auto d-block border border-primary" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, sit ipsum? Non, tempore officia
                 odio at minus, voluptas sapiente labore explicabo facere recusandae velit alias similique voluptatibus?
                 Harum, perferendis necessitatibus?</p>
@@ -54,6 +93,7 @@
 
     </section>
     <footer>
+        <hr>
         <section>
             <p>Pagina de Mauricio Mitre. Todos los derechos reservados &#9400</p>
         </section>
