@@ -1,0 +1,17 @@
+
+.datos {
+    background-color: greenyellow;
+    color: black;
+  }
+
+ h1{ 
+    background-color: orange;
+    font-style: italic;}
+
+h2{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; }
+
+span {
+      font-weight: 200;
+      }
+
+h4{ font-size: large;  text-decoration:underline; }
