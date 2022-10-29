@@ -1,0 +1,24 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+nav{
+    width:100%;
+}
+header{
+    font-size: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+}
+
+a{
+    text-decoration:overline
+}
