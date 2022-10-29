@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,footer>p{
+    background-color: rgb(36, 41, 56);
+    color: white;
+    padding: 15px;
+}
+
+img{
+    height: 20px;
+}
+
+h1,h2,#margenEstudios{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    text-decoration: underline;
+    text-shadow: 1px 2px 5px grey;
+}
+
+section{
+    margin: 20px;
+} 
+
+section>p{
+    padding-bottom: 20px;
+}
+
+.icono{
+    margin: 0px 10px 0px 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+footer>h2{
+    margin: 0 20px 20px;
+}
+
+footer>p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
