@@ -1,0 +1,78 @@
+/* *{
+    background-color: #ffffff;
+} */
+
+h1{
+    font-weight: bolder;
+    font-style: italic;
+    color: #f3f3f3;
+    text-decoration: dotted;
+    text-shadow: 10px -1px 11px #acacac;
+}
+
+h3 {
+    font-weight: bolder;
+    color:#bd0000;
+    background-color:#f3f3f3 ;
+    }
+
+a {
+    text-decoration:dotted;
+    font-family: Verdana;
+    color:#f3f3f3;
+}
+
+b{
+    text-decoration:underline;
+    font-family: 'Lucida Sans';
+    color:#bd0000;
+}
+
+p{
+    font-weight: bolder;
+    font-style: initial; 
+}
+
+.header{
+    background-color: #bd0000;
+    border: solid #f3f3f3;
+    padding: 10px;
+
+}
+
+
+.nav{
+
+    color: #f3f3f3;
+}
+
+.container{
+
+    border: solid #f3f3f3;
+
+}
+
+.datos{
+    background-color: #f3f3f3;
+    border: solid #bd0000;
+    padding: 2px;
+    margin: 3px;
+}
+
+.estudios{
+    background-color: #f3f3f3;
+    border: solid #bd0000;
+    padding: 2px;
+    margin: 3px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.estudios__tit{
+    background-color: #bd0000;
+    color:#f3f3f3;
+    font-family:Helvetica;
+}
+
+.footer{
+    text-align: center;
+}
