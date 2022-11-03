@@ -8,8 +8,15 @@
     float: left;
 
 }
-*{
-    box-sizing: border-box;
+#contenedor{
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+label{
+    font-size: large;
+    font-weight: bold;
 }
 /*
 * {
@@ -35,12 +42,13 @@
 
 #datos {
     /*font-style: oblique 40deg;*/
-    text-decoration:solid;
+    
 }
 
 #titulo {
     color: rgba(20, 141, 221, 0.829);
     font-size: 20px;
+    text-decoration-line:underline;
 }
 
 #detalle_datos {
