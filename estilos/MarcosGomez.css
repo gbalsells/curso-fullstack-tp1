@@ -8,7 +8,10 @@
     float: left;
 
 }
-
+*{
+    
+}
+/*
 * {
     font-style: normal;
     font-size: 12px;
@@ -16,7 +19,7 @@
     float: left;
     background-color: rgb(247, 243, 243);
 }
-
+*/
 #redes {
     color: blue;
     font-size: 10px;
@@ -25,6 +28,7 @@
 #titulo_ppal {
     color: rgb(55, 124, 136);
     font-size: 25px;
+    font-style: italic;
 }
 
 #datos {
@@ -37,11 +41,11 @@
 }
 
 #detalle_datos {
-    color: rgba(23, 23, 26, 0.151);
+    color: rgba(23, 23, 26, 0.452);
 }
 
 #contenido {
-    color: rgba(100, 100, 105, 0.151);
+    color: rgba(15, 15, 19, 0.671);
 }
 
    
