@@ -9,7 +9,7 @@
 
 }
 *{
-    
+    box-sizing: border-box;
 }
 /*
 * {
@@ -28,11 +28,14 @@
 #titulo_ppal {
     color: rgb(55, 124, 136);
     font-size: 25px;
-    font-style: italic;
+    font-style: italic;    
+    text-align: center;
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.61);
 }
 
 #datos {
-    font-style: oblique 40deg;
+    /*font-style: oblique 40deg;*/
+    text-decoration:solid;
 }
 
 #titulo {
