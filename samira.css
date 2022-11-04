@@ -1,0 +1,38 @@
+
+.caja{
+    background-color: rgb(247, 147, 134);
+    z-index: 2000;
+    height: 80px;
+    
+}
+
+.caja__interna{
+    background-color: rgb(247, 184, 173);
+    width: 40%;
+    height: 1000px;
+}
+
+.datos{
+    position: relative;
+    left: 4%;
+    top: 2%;
+}
+
+.nombre{
+    position: absolute;
+    left : 45%;
+    top: 25px;
+}
+
+main{
+    position: absolute;
+    left: 45%;
+}
+ 
+img{
+    width: 200px;
+    position: relative;
+    left: 11%;
+    top: 2%;
+    border-radius: 50%;
+}
