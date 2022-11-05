@@ -9,10 +9,6 @@ h3 {
   font-size: 90px;
 }
 
-/* h2 {
-  background-color: red !important;
-} */
-
 .primero {
   background-color: brown;
 }
@@ -34,20 +30,11 @@ a[href="http://www.googl2e.com"] {
 .caja {
   background-color: blue;
   width: 120px;
-  height: 200px;
+  height: 50px;
   border: 10px solid black;
   padding: 20px;
-  /* margin: 30px 20px 10px 25px; */
-  /* border-radius: 50%; */
-  /* box-shadow: 20px 20px 50px blue; */
-  /* opacity: 0.2; Se aplica a todo el contenido */
-  clear: both;
   position: relative;
-}
-
-.caja:hover{
-  transform: scale(110%);
-  box-shadow: 10px 10px 20px;
+  color: white;
 }
 
 /* .caja:nth-child(even){
@@ -77,86 +64,83 @@ a {
   color: white;
 }
 
-a:active{
+a:active {
   color: blue;
 }
 
-/* p {
-  color: white;
-} */
-
-.caja1{
-  /* float: left; */
-  /* position: relative;
-  top: 129px;
-  left: 97px; */
-  /* display: inline-block; */
-  overflow: hidden;
-  height: 120px;
-}
-
-.caja2{
-  /* float: right; */
-  /* position: absolute;
-  top: 0;
-  left: 0; */
-  /* display: inline-block; */
-  height: 200px;
-}
-
-.caja3{
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: 400px; */
-  /* position: sticky;
-  top: 0;
-  left: 0; */
-  /* position: absolute;
-  top: 0;
-  z-index: -1; */
-  height: 300px;
-}
-
-.caja4{
-  height: 240px;
-}
-
-h2+p{
+h2~p {
   background-color: red;
 }
 
-h2~p{
-  background-color: red;
-}
-
-h2+p{
+h2+p {
   background-color: yellow;
 }
 
-.boeri p{
-  background-color: coral;
+/* .caja1::first-line {
+  color: red;
 }
 
-input:disabled{
-  background-color: brown;
-}
-
-.caja1::first-line{
-  color: blue;
-}
-
-.caja::after{
-  /* content: url("https://media.revistagq.com/photos/5ca5f6a77a3aec0df5496c59/master/w_1600%2Cc_limit/bob_esponja_9564.png"); */
+.caja::after {
   content: "Prueba";
-}
+} */
 
-.flexCaja{
+.flexCaja {
   display: flex;
-  flex-wrap: nowrap;
-  background-color: gray;
-  /* justify-content: space-evenly; */
-  padding: 30px;
-  align-items: flex-start;
+  background-color: grey;
+  height: 600px;
+  flex-wrap: wrap;
+
 }
 
+.caja1 {
+  width: 120px;
+}
+
+.caja2 {
+  width: 200px;
+  font-size: 40px;
+}
+
+.caja3 {
+  width: 300px;
+}
+
+.caja4 {
+  width: 240px;
+}
+
+.gridCaja {
+  display: grid;
+  background-color: cyan;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 200px minmax(150px, 200px) 200px;
+  grid-row-gap: 10px;
+  grid-column-gap: 40px;
+  grid-auto-rows: 500px;
+  justify-items: flex-end;
+}
+
+.caja1 {
+  grid-column-start: 1;
+  grid-column-end: 3
+}
+
+@media screen and (max-width: 800px) {
+  .caja {
+    width: 400px;
+  }
+
+  .gridCaja {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .caja {
+    width: 200px;
+  }
+
+  .gridCaja {
+    flex-direction: column;
+  }
+}
