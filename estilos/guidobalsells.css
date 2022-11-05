@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 h3 {
@@ -8,9 +9,9 @@ h3 {
   font-size: 90px;
 }
 
-h2 {
+/* h2 {
   background-color: red !important;
-}
+} */
 
 .primero {
   background-color: brown;
@@ -32,12 +33,26 @@ a[href="http://www.googl2e.com"] {
 
 .caja {
   background-color: blue;
-  width: 200px;
+  width: 120px;
   height: 200px;
   border: 10px solid black;
   padding: 20px;
-  margin: 30px 20px 10px 25px;
+  /* margin: 30px 20px 10px 25px; */
+  /* border-radius: 50%; */
+  /* box-shadow: 20px 20px 50px blue; */
+  /* opacity: 0.2; Se aplica a todo el contenido */
+  clear: both;
+  position: relative;
 }
+
+.caja:hover{
+  transform: scale(110%);
+  box-shadow: 10px 10px 20px;
+}
+
+/* .caja:nth-child(even){
+  background-color: red;
+} */
 
 .caja__interna {
   background-color: wheat;
@@ -57,8 +72,91 @@ a[href="http://www.googl2e.com"] {
 
 a {
   text-decoration: none;
-}
-
-p {
+  padding: 30px;
+  font-size: 32px;
   color: white;
 }
+
+a:active{
+  color: blue;
+}
+
+/* p {
+  color: white;
+} */
+
+.caja1{
+  /* float: left; */
+  /* position: relative;
+  top: 129px;
+  left: 97px; */
+  /* display: inline-block; */
+  overflow: hidden;
+  height: 120px;
+}
+
+.caja2{
+  /* float: right; */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  /* display: inline-block; */
+  height: 200px;
+}
+
+.caja3{
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 400px; */
+  /* position: sticky;
+  top: 0;
+  left: 0; */
+  /* position: absolute;
+  top: 0;
+  z-index: -1; */
+  height: 300px;
+}
+
+.caja4{
+  height: 240px;
+}
+
+h2+p{
+  background-color: red;
+}
+
+h2~p{
+  background-color: red;
+}
+
+h2+p{
+  background-color: yellow;
+}
+
+.boeri p{
+  background-color: coral;
+}
+
+input:disabled{
+  background-color: brown;
+}
+
+.caja1::first-line{
+  color: blue;
+}
+
+.caja::after{
+  /* content: url("https://media.revistagq.com/photos/5ca5f6a77a3aec0df5496c59/master/w_1600%2Cc_limit/bob_esponja_9564.png"); */
+  content: "Prueba";
+}
+
+.flexCaja{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: gray;
+  /* justify-content: space-evenly; */
+  padding: 30px;
+  align-items: flex-start;
+}
+
