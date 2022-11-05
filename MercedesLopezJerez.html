@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://media.istockphoto.com/vectors/engineering-system-line-icon-concept-engineering-system-vector-linear-vector-id1074943166?s=612x612">
+    <link rel="stylesheet" href="estilos/merlopezjerez.css">
     <title>Mercedes Lopez Jerez</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Maria Mercedes Lopez Jerez
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/merlopezjerez/" target="_blank">Instagram</a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/merlopezjerez/" target="_blank">Facebook</a>
-                    </li>
-                </ul>
-            </nav>
-        </h1>
+        <div class="presentacion">
+            <div class="presentacion_foto"></div>
+            <h1 class="presentacion_titulo">Hola! Mi nombre es Maria Mercedes Lopez Jerez. Futura ingeniera en 
+                Computacion.</h1>
+            <p class="presentacion_contenido">Soy estudiante avanzada de la carrera Ingenieria en Computacion en la Universidad Nacional de Tucuman (UNT).</p>
+            <ul class="presentacion_lista">
+                    <li class="presentacion_lista_link"><a href="https://www.instagram.com/merlopezjerez/" target="_blank">Instagram <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon></a></li>
+                    <li class="presentacion_lista_link"><a href="https://www.facebook.com/merlopezjerez/" target="_blank">Facebook <iconify-icon icon="ant-design:facebook-filled"></iconify-icon></a></li>
+            </ul>
+        </div>    
     </header>
     <main>
-        <section>
+        <section class="datosPersonales">
             <article>
                 <h2>Datos personales:</h2>
                 <p>
@@ -42,7 +47,7 @@
                 </p>
             </article>
         </section>
-        <section>
+        <section class="formacionAcademica">
             <h2>Formacion academica:</h2>
             <ul>
                 <li><p>2006-2017: Colegio Sagrado Corazon - Orientacion en Ciencias Naturales (Metan-Salta)</p></li> 
@@ -52,6 +57,19 @@
                 <li><p>CURSO DE PYTHON - Udemy</p></li>
                 <li><p>SEMINARIO DQL - Universidad Nacional de Tucuman</p></li>
                 <li><p>INGLES AVANZADO - Universidad de Cambridge</p></li>
+            </ul>
+        </section>
+        <section class="skills">
+            <h2 class="skills_titulo">Skills</h2>
+            <ul class="skills_lista">
+                <li class="skills_listaitem"><iconify-icon icon="icon-park:html-five"  width="80px"></iconify-icon><p class="skills_listaitem_titulo">HTML5</p></li>
+                <li class="skills_listaitem"><iconify-icon icon="vscode-icons:file-type-css"width="80px"></iconify-icon><p class="skills_listaitem_titulo">CSS</p></li>
+                <li class="skills_listaitem"><iconify-icon icon="logos:javascript" width="80px"></iconify-icon><p class="skills_listaitem_titulo">JavaScript</p></li>
+                <li class="skills_listaitem"><iconify-icon icon="logos:mysql" width="80px"></iconify-icon><p class="skills_listaitem_titulo">MySQL</p></li>
+                <li class="skills_listaitem"><iconify-icon icon="logos:python" width="80px"></iconify-icon><p class="skills_listaitem_titulo">Python</p></li>
+                <li class="skills_listaitem"><iconify-icon icon="logos:java" width="80px"></iconify-icon><p class="skills_listaitem_titulo">Java</p></li>
+                <li class="skills_listaitem"><iconify-icon icon="file-icons:c" width="80px"></iconify-icon><p class="skills_listaitem_titulo">C++</p></li>
+                <li class="skills_listaitem"><iconify-icon icon="bi:git" width="80px"></iconify-icon><p class="skills_listaitem_titulo">Git</p></li>
             </ul>
         </section>
     </main>
