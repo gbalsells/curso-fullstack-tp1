@@ -1,8 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*content-box;*/
+}
+
 table,tr,th, td,
 th,td{
-  border: 1px solid black;
-  border-collapse: collapse;
-  text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
 }
 
 p, b  {
@@ -47,9 +53,14 @@ h4 {
     text-align: center;
  }
 
- .nav{
-    text-align: right;
+ .img-caja-principal{
+    border-radius: 50px;
+    box-shadow: 10px -1px 11px #008185;
  }
+
+ /* .nav{
+    text-align: right;
+ } */
 .bio {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #1B147F;
@@ -69,11 +80,15 @@ h4 {
 
 .contenedor{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    /* overflow: scroll; */
 }
 .momentos{
     border: 10px solid #EAE426;
-    padding: 35px;
+    padding: 30px;
+    float: right;
 }
 .textoImagenes{
     font-size: medium;
@@ -87,9 +102,11 @@ h4 {
 
 .footer{
     border: 5px solid #02010E;
+    color: white;
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
+    background-color: #008185;
 }
 
  /* Selector de id */
@@ -99,4 +116,9 @@ h4 {
     font-style: italic;
     font-weight: 300;
     color: #161343;
+
+}
+.footer-descripcion{
+    font-weight:  bold;
+    color: antiquewhite;
 }
