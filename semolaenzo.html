@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,7 +22,6 @@
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
 </head>
-
 <body>
   <div class="container">
     <header>
@@ -60,120 +58,134 @@
         </div>
       </div>
     </nav>
-    <hr>
     <section>
-      <h3>Datos personales:</h3>
-      <li><b>Nombre completo:</b> Juan Roman Riquelme</li>
-      <li><b>Edad:</b> 44 Años</li>
-      <li><b>Nacionalidad:</b> Argentino</li>
-      <li><b>Cargo:</b> Vicepresidente del mejor equipo de la Argentina</li>
-      <div class=" bio">
-                    Es un exfutbolista argentino, y actual vicepresidente y director
-                    deportivo del Club Atlético Boca Juniors. Un emblema del "clásico
-                    número 10", Riquelme se destacó como uno de los más aclamados
-                    mediocampistas de su generación, y uno de los últimos referentes de su
-                    posición.Además, es ampliamente nombrado como el mejor jugador de la
-                    historia de Boca Juniors y una de sus más importantes figuras, debido
-                    a su desempeño por 13 temporadas (1996-2014) en el club, en las que
-                    consiguió ganar tres Copas Libertadores de América y una Copa
-                    Intercontinental, entre otros títulos.
-        </div>
-        </section>
-        <hr>
-        <section>
-          <h3>Trayectoria:</h3>
-          <table class="table">
-            <thead class="table-dark">
-            <tr>
-              <th>Equipo</th>
-              <th>Pais</th>
-              <th>Año</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr>
-              <td>Argentino Juniors</td>
-              <td>Argetina</td>
-              <td>1991-1996</td>
-            </tr>
-            <tr>
-              <td>Boca Juniors</td>
-              <td>Argetina</td>
-              <td>1996-2002</td>
-            </tr>
-            <tr>
-              <td>Barcelona</td>
-              <td>España</td>
-              <td>2003-2007</td>
-            </tr>
-            <tr>
-              <td>Boca Juniors</td>
-              <td>Argetina</td>
-              <td>2007-2014</td>
-            </tr>
-          </tbody>
-          </table>
-        </section>
-        <hr>
-        <section>
-          <h4>Momentos historico:</h4>
-          <div class="contenedor">
-            <div class="momentos">
-              <img class="img"
-                src="https://ugc.kn3.net/i/760x/http://4.bp.blogspot.com/-kK7ALog4wVQ/UwyzPDbdEqI/AAAAAAAAAHo/w9LOP1o8pDc/s1600/caño+de+riquelme.gif" />
-              <p class="textoImagenes">Caño a Rojas</p>
-            </div>
-            <div class="momentos">
-              <img class="img" src="https://media.tenor.com/G9VvgE3QezoAAAAM/riquelme-pidiendo-aliento.gif" />
-              <p class="textoImagenes">Festejo contra River </p>
-            </div>
-            <div class="momentos">
-              <img class="img" src="https://j.gifs.com/vnWNa5.gif" />
-              <p class="textoImagenes">Topo gigio</p>
-            </div>
+      <div class=" container">
+        <div class="row">
+          <div class="col-md-5 caja1">
+            <h3>Datos personales:</h3>
+            <li><b>Nombre completo:</b> Juan Roman Riquelme</li>
+            <li><b>Edad:</b> 44 Años</li>
+            <li><b>Nacionalidad:</b> Argentino</li>
+            <li><b>Cargo:</b> Vicepresidente del mejor equipo de la Argentina</li>
+        </div> 
+        <div class="col-md-7 caja2">
+          <h3>Breve reseña:</h3>
+          <div class=" bio">
+            Es un exfutbolista argentino, y actual vicepresidente y director
+            deportivo del Club Atlético Boca Juniors. Un emblema del "clásico
+            número 10", Riquelme se destacó como uno de los más aclamados
+            mediocampistas de su generación, y uno de los últimos referentes de su
+            posición.Además, es ampliamente nombrado como el mejor jugador de la
+            historia de Boca Juniors y una de sus más importantes figuras, debido
+            a su desempeño por 13 temporadas (1996-2014) en el club, en las que
+            consiguió ganar tres Copas Libertadores de América y una Copa
+            Intercontinental, entre otros títulos.
           </div>
-        </section>
-        <br>
-        <hr>
-
-        <section>
-          <h4 id="formmje">Enviale tu mensaje a Roman</h4>
-          <form class="form" action="">
-            <div class="form__campo">
-              <label for="nombreusuario">Nombre de usuario: </label>
-              <input type="text" name="nombreusuario" id="nombreusuario" required />
-            </div>
-            <br>
-            <div class="form__campo">
-              <label for="email">Cuál es tu email: </label>
-              <input type="email" name="email" id="email" placeholder=" Escriba aqui su email" />
-            </div>
-            <br>
-            <div class="form__campo">
-              <label for="edad">Cuál es tu edad: </label>
-              <input type="number" name="edad" id="edad" min="0" max="100" step="1" />
-            </div>
-            <br>
-            <div class="form__campo">
-              <label for="nacimiento">Cuál es tu fecha de nacimiento: </label>
-              <input type="date" name="nacimiento" id="nacimiento" />
-            </div>
-            <br>
-            <div class="form__campo">
-              <label for="comentarios">Mensaje: </label>
-              <textarea name="comentarios" id="comentarios" required></textarea>
-            </div>
-            <br>
-            <button type="reset">Borrar</button>
-            <button type="submit">Enviar</button>
-          </form>
-        </section>
+        </div>
       </div>
+  </div>
+  </section>
+  <section>
+    <div class="container">
+    <h3>Trayectoria:</h3>
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th>Equipo</th>
+          <th>Pais</th>
+          <th>Año</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+        <tr>
+          <td>Argentino Juniors</td>
+          <td>Argetina</td>
+          <td>1991-1996</td>
+        </tr>
+        <tr>
+          <td>Boca Juniors</td>
+          <td>Argetina</td>
+          <td>1996-2002</td>
+        </tr>
+        <tr>
+          <td>Barcelona</td>
+          <td>España</td>
+          <td>2003-2007</td>
+        </tr>
+        <tr>
+          <td>Boca Juniors</td>
+          <td>Argetina</td>
+          <td>2007-2014</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </section>
+  <section>
+    <div class="container">
+    <h4>Momentos historico:</h4>
+    <div class="contenedor">
+      <div class="momentos">
+        <img class="img"
+          src="https://ugc.kn3.net/i/760x/http://4.bp.blogspot.com/-kK7ALog4wVQ/UwyzPDbdEqI/AAAAAAAAAHo/w9LOP1o8pDc/s1600/caño+de+riquelme.gif" />
+        <p class="textoImagenes">Caño a Rojas</p>
+      </div>
+      <div class="momentos">
+        <img class="img" src="https://media.tenor.com/G9VvgE3QezoAAAAM/riquelme-pidiendo-aliento.gif" />
+        <p class="textoImagenes">Festejo contra River </p>
+      </div>
+      <div class="momentos">
+        <img class="img" src="https://j.gifs.com/vnWNa5.gif" />
+        <p class="textoImagenes">Topo gigio</p>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section>
+    <div class="card border-dark mb-3">
+      <div class="card-header">
+        <div id="formmje">Enviale tu mensaje a Roman</div>
+      </div>
+      <div class="card-body text-dark">
+        <form class="row g-3">
+          <div class="col">
+            <label class="form-label">Apellido</label>
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+          </div>
+          <div class="col">
+            <label class="form-label">Nombre</label>
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+          </div>
+          <div class="col">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Nacionalidad: </label>
+            <select class="form-select form-select-mb" aria-label=".form-select-sm example">
+              <option selected>Selecciona una opcion del menu</option>
+              <option value="1">Argentina</option>
+              <option value="2">Brasil</option>
+              <option value="3">Otro</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="card-footer">
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" style="float: right;">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
 </body>
-<hr>
 <footer class="footer">
   <img src="https://www.facet.unt.edu.ar/wp-content/uploads/2022/04/FACET-cabecera-2022.png" width="200" height="50" />
   <p class="footer-descripcion">&copy;Autor: Enzo Semola - Facet - UNT</p>
 </footer>
-
 </html>

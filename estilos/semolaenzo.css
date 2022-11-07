@@ -4,6 +4,9 @@
     box-sizing: border-box; /*content-box;*/
 }
 
+section{
+    margin: 20px;
+}
 table,tr,th, td,
 th,td{
     border: 1px solid black;
@@ -41,12 +44,33 @@ h4 {
     background-color: yellow ;
 }
 
+.datosPersonales img {
+    width: 300px;
+    margin-right: 2em;
+    border-radius: 200px;
+    box-shadow: 0 0 10px;
+    transition: 200ms linear;
+    animation-duration: 3000ms;
+    animation-name: imagen;
+  }
+
+
  /* selector por clase */
  .container{
     margin: 60px;
-    border: solid #2312CF;
+    border: solid black;
+    border-radius: 10px;
     padding: 30px;
  }
+
+ .caja1{
+    background-color:#aaa
+ }
+ .caja2{
+    background-color:#bbb
+ }
+ 
+ 
  .caja-principal{
     width: 100%;
     height: 100%;
@@ -56,7 +80,32 @@ h4 {
  .img-caja-principal{
     border-radius: 50px;
     box-shadow: 10px -1px 11px #008185;
+    
+
+    width: 300px;
+    margin-right: 2em;
+    border-radius: 200px;
+    /* box-shadow: 0 0 10px; */
+    transition: 200ms linear;
+    animation-duration: 3000ms;
+    animation-name: imagen;
  }
+
+ @keyframes imagen {
+    from {
+      margin: 0 27em 0 -25em;
+    }
+  
+    to {
+      margin-left: 0px;
+    }
+  }
+
+
+  .img-caja-principal:hover {
+    transform: scale(110%);
+    box-shadow: 0 0 30px;
+  }
 
  /* .nav{
     text-align: right;
@@ -90,6 +139,11 @@ h4 {
     padding: 30px;
     float: right;
 }
+.momentos:hover {
+    transform: scale(110%);
+    box-shadow: 0 0 30px;
+  }
+
 .textoImagenes{
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -108,17 +162,15 @@ h4 {
     padding-bottom: 0;
     background-color: #008185;
 }
-
- /* Selector de id */
-#formmje{
-    font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    font-weight: 300;
-    color: #161343;
-
-}
 .footer-descripcion{
     font-weight:  bold;
     color: antiquewhite;
+}
+ /* Selector de id */
+ #formmje{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    color: #161343;
 }
