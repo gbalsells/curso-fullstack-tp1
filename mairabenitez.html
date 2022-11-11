@@ -5,42 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tony Stark</title>
-    <style>
-        span {
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="./estilos/mairabenitez.css">
+    <link rel="shortcut icon" href="https://www.elcomercio.com/wp-content/uploads/2022/09/iron-ec-700x391.jpg">
+    <title>TP3</title>
 </head>
 
 <body>
 
-    <header style="text-decoration:underline;color: darkorange;">
-        <h1>Tony Stark</h1>
+    <header class="Cabecera">
+        <h1 class="Cabecera__titulo">Tony Stark</h1>
+        <img class="Cabecera__imagen"
+            src="https://static.wikia.nocookie.net/chanahouse/images/c/cc/Tumblr_mxjzf70AEw1rt0jkuo1_1280.png/revision/latest?cb=20151221071102"
+            alt="">
+        <p>Alias: Iron Man</p>
     </header>
 
-    <nav style="color: darkorange;">
-        <ol>
-            <li>
-                <a
-                    href="https://es.wikipedia.org/wiki/Tony_Stark_(Universo_cinematogr%C3%A1fico_de_Marvel)#Biograf%C3%ADa_ficticia_del_personaje">Wikipedia
-                    1</a>
-            </li>
-
-            <li>
-                <a
-                    href="https://depor.com/resizer/C53K0mrZxp4-iMbqgYX_2AEplL0=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/RALZSE3SM5H7NCTSAKCQ7ZQ4AQ.jpg">Imagen
-                    de Tony Stark</a>
-            </li>
-        </ol>
-    </nav>
-
     <main>
-        <section>
+        <section class="DatosCentrales">
 
-            <article style="text-decoration:underline;">
-                <h1>Datos personales: </h1>
-            </article>
+            <h1>Datos personales: </h1>
 
             <p>
                 <span>
@@ -48,28 +31,28 @@
                 </span>
                 Stark
             </p>
-
+            <br>
             <p>
                 <span>
                     Nombres:
                 </span>
                 Anthony Edward
             </p>
-
+            <br>
             <p>
                 <span>
                     Edad:
                 </span>
                 52 años
             </p>
-
+            <br>
             <p>
                 <span>
                     Profesión:
                 </span>
                 Ingeniero mecánico, ingeniero eléctrico, científico
             </p>
-
+            <br>
             <p>
                 <span>
                     Email:
@@ -79,102 +62,143 @@
 
         </section>
 
-        <section>
-
-            <article style="text-decoration:underline;">
-                <h1>Experiencia laboral</h1>
-            </article>
+        <section class="DatosCentrales">
+            <h1>Experiencia laboral</h1>
 
             <li>
                 Industrias Stark
             </li>
-
+            <br>
             <li>
                 S.H.I.E.L.D
             </li>
 
         </section>
 
-        <section>
-
-            <article style="text-decoration:underline;">
-                <h1>Información académica</h1>
-            </article>
+        <section class="DatosCentrales">
+            <h1>Información académica</h1>
 
             <li>
                 Dos maestrías en ingeniería en MIT
             </li>
-
+            <br>
             <li>
                 Doctorados en física
             </li>
-
+            <br>
             <li>
                 Doctorados en inteligencia artificial
             </li>
         </section>
 
-        <ASide>
-            <p style="text-decoration:underline; color: red;">
-                <span>Información extra: </span>
-            </p>
-
+        <Aside class="Extra">
+            <span id="subtituloSecundario">Información extra: </span>
+            <br>
             <p>
                 <span>
                     Padres:
                 </span>
                 Howard Stark y Maria Stark
             </p>
+            <br>
             <p>
                 <span>
                     Fecha de nacimiento:
                 </span>
                 29 de mayo de 1970
             </p>
+            <br>
             <p>
                 <span>
                     Nacionalidad:
                 </span>
                 Estadounidense
             </p>
+            <br>
             <p>
                 <span>
                     Estatura:
                 </span>
                 185 cm
             </p>
+            <br>
             <p>
                 <span>
                     Peso:
                 </span>
                 102 kg
             </p>
+            <br>
             <p>
                 <span>
                     Pasatiempo:
                 </span>
-                Superhéroe (Iron Mann)
+                Superhéroe
             </p>
+            <br>
             <p>
                 <span>
                     Cónyuge:
                 </span>
                 Pepper Potts
             </p>
+            <br>
             <p>
                 <span>
                     Hijos:
                 </span>
                 Morgan Stark
             </p>
+            <br>
             <p>
                 <span>
                     Fecha de fallecimiento:
                 </span>
                 26 de abril de 2019
             </p>
-        </ASide>
+        </Aside>
+
     </main>
+    <form class="Preguntas" action="">
+        <p>¡Cuentanos!</p>
+        <br>
+
+        <div>
+            <span>¿Conoces las películas de Iron Man?</span>
+            <br>
+            <input type="radio" name="ConocesSusPeliculas" id="sí" value="Sí"> Sí
+            <input type="radio" name="ConocesSusPeliculas" id="no" value="No"> No
+            <input type="radio" name="ConocesSusPeliculas" id="algunas" value="Algunas"> Algunas
+        </div>
+        <div>
+            <br>
+            <label for="Película">¿Cuál es tu película favorita?</label>
+            <input type="text" name="Película" id="Película">
+        </div>
+        <div>
+            <br>
+            <label for="Escena">¿Cuál dirías es la mejor escena?</label>
+            <input type="text" name="Escena" id="Escena">
+        </div>
+        <div>
+            <br>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    <br>
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/iron-man-suit-up-1539168457.gif" alt="">
+
+    <nav class="enlacesAdheridos">
+        <p>Fuentes:</p>
+        <ol>
+            <li>
+                <a
+                    href="https://es.wikipedia.org/wiki/Tony_Stark_(Universo_cinematogr%C3%A1fico_de_Marvel)#Biograf%C3%ADa_ficticia_del_personaje">Wikipedia
+                    1</a>
+            </li>
+        </ol>
+    </nav>
+
     <footer>
         &copy; Copyright 2022 Benitez Maira Ayelen
     </footer>

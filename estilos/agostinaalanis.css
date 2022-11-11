@@ -1,0 +1,42 @@
+  header {     
+  font-size: 25px;
+  margin: 30px 20px 10px 25px;
+  height: 70px;  
+  padding: 20px;
+  text-align: left;
+  background-color: #63a6e5;
+  color: #090808;
+  }
+
+  h2 {    
+    width: 800px;
+    height: 70px;
+    background-color: rgb(43, 198, 226);
+    color:  white;
+    font-size: 60px;
+    margin: 30px 20px 10px 25px;
+  }
+
+  h3 {    
+    width: 800px;
+    height: 50px;
+    background-color: rgb(43, 198, 226);
+    color:  white;
+    font-size: 40px;
+    margin: 30px 20px 10px 25px;
+  }
+
+  .datos {
+    color:  #0f87ccd8;
+    margin: 30px 20px 10px 25px;
+  }
+
+  a {
+  color: #249ee5d8;
+  margin: 30px 20px 10px 25px;
+  }
+
+  footer{
+  color: #6b8ea1d8;
+  margin: 30px 20px 10px 25px;
+  }

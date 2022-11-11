@@ -1,0 +1,160 @@
+* {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1 {
+    display: inline-flexbox;
+    background-color: rgb(68, 116, 98);
+    height: 280px;
+    flex-wrap: wrap;
+    color: #f0f0f0;
+    padding-top: 0px;
+}
+
+#nombre {
+    background-color: transparent;
+    padding-left: 550px;
+    font-size: 40px;
+    display: block;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+#carrera,
+#tucuman,
+#edad {
+    background-color: transparent;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+    position: relative;
+    padding-left: 550px;
+}
+
+#perfil {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 280px;
+    margin-top: -220px;
+}
+
+.academica {
+    font-style: italic;
+}
+
+.personales {
+    margin: 5px 30px;
+    font-weight: 600;
+}
+
+#footer {
+    background-color: darkgray;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.fotos {
+    background-image: url(https://i.pinimg.com/originals/71/e8/d3/71e8d3c8f94fd3ad3f99598a11ef63f4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    z-index: 1;
+    opacity: 0.9;
+    height: 500px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.socialLinks {
+    display: flex;
+    background-color: transparent;
+    display: flex;
+    height: 0px;
+    padding-top: 230px;
+}
+
+#ig {
+    height: 30px;
+    width: 30px;
+    padding-left: 225px;
+    background-color: transparent;
+}
+
+#user {
+    background-color: transparent;
+    margin-top: -35px;
+    padding-left: 270px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .box1 {
+        height: 200px;
+        align-items: center;
+    }
+
+    #nombre {
+        padding-left: 200px;
+        padding-top: 25px;
+        font-size: 30px;
+    }
+
+    #perfil {
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        margin-left: 25px;
+        margin-top: -150px;
+    }
+
+    #carrera,
+    #tucuman,
+    #edad {
+        font-size: 14px;
+        padding-left: 200px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .box1 {
+        height: 80px;
+    }
+
+    #nombre {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 25px;
+        font-size: 29px;
+    }
+
+    #perfil {
+        display: none;
+    }
+
+    #carrera,
+    #tucuman,
+    #edad {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #nombre {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 25px;
+        font-size: 25px;
+    }
+}
