@@ -10,55 +10,62 @@
         span {
             font-weight: bold;
         }
-        aside {
+        .datosPersonales {
             width: 30%;
-            padding-left: 15px;
-            margin-left: 15px;
-            float: right;
+            padding-right: 15px;
+            margin-right: 5%;
+            float: left;
+            font-style: normal;
+            background-color: green;
+        }
+        .objetivo {
             font-style: italic;
-            background-color: lightgray;
+            background-color: lightgreen;
+        }
+        .titulo {
+            font-size: x-large;
         }
     </style>
 </head>
 <header>
-    <h1>Enzo Faciano</h1>
-    <nav>
-        <h4>Links</h4>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/enzo-faciano-bb68b4243/">Linkedin</a></li>
-            <li><a href="https://www.facebook.com/enzo.faciano/">Facebook</a></li>
-            <li><a href="https://github.com/enzofac">GitHub</a></li>
-        </ul>
-    </nav>
+    <div class="titulo">
+        <h1>Enzo Faciano</h1>
+    </div>
 </header>
 <body>
-    <aside>
-        <h4>Objetivo</h4>
-        <p>
-            Dar continuidad a lo aprendido durante mis estudios, desarrollarme como profesional
-            y entablar nuevas relaciones.
-        </p>
-    </aside>
+    <div class="datosPersonales">
+        <div class="objetivo">
+            <aside>
+                <h4>Objetivo</h4>
+                <p>
+                    Dar continuidad a lo aprendido durante mis estudios, desarrollarme como profesional
+                    y entablar nuevas relaciones.
+                </p>
+            </aside>
+        </div>
+        <section>
+            <article>
+                <h4>Datos Personales</h4>
+                <p>
+                    <span>Apellido:</span>
+                    Faciano
+                </p>
+                <p>
+                    <span>Nombre:</span>
+                    Enzo Nicolás
+                </p>
+                <p>
+                    <span>Fecha de Nacimiento:</span>
+                    05/09/1997
+                </p>
+                <p>
+                    <span>Edad:</span>
+                    25
+                </p>
+            </article>
+        </section>
+    </div>
     <section>
-        <article>
-            <h4>Datos Personales</h4>
-            <p>
-                <span>Apellido:</span>
-                Faciano
-            </p>
-            <p>
-                <span>Nombre:</span>
-                Enzo Nicolás
-            </p>
-            <p>
-                <span>Fecha de Nacimiento:</span>
-                05/09/1997
-            </p>
-            <p>
-                <span>Edad:</span>
-                25
-            </p>
-        </article>
         <article>
             <h4>Formación</h4>
             <ul>
@@ -91,5 +98,13 @@
             <span>Tel:</span>
             3815560478
         </p>
+        <nav>
+            <h4>Links</h4>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/enzo-faciano-bb68b4243/">Linkedin</a></li>
+                <li><a href="https://www.facebook.com/enzo.faciano/">Facebook</a></li>
+                <li><a href="https://github.com/enzofac">GitHub</a></li>
+            </ul>
+        </nav>
 </footer>
 </html>
