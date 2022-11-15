@@ -37,7 +37,18 @@ p{
     background-color: #bd0000;
     border: solid #f3f3f3;
     padding: 10px;
+    display: grid;
+    justify-items: center;
 
+}
+
+.img-principal{
+    position: relative;
+}
+.img-principal:hover{
+    transform: scale(110%);
+    box-shadow: 0 0 10px;
+    transition: 200ms linear;
 }
 
 
