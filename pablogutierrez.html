@@ -4,57 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/pablogutierrez.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="./scripts/pablogutierrez.js"></script>
     <title>Pablo Gutierrez</title>
 </head>
 <body>
+    <div class="container">
     <header>
-        <h1>Pablo Gutierrez</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com/pablo.gutierrez.9843/" target="_blank">Facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/pablogutierrez.exe/" target="_blank">Instagram</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header">
+            <h1>Pablo Gutierrez</h1>
+            <img
+            class="img-principal"
+            src="https://i.pinimg.com/736x/69/e7/0e/69e70e0df49e21309b05ef156bf21260.jpg"
+            width="250" height="150" />
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/pablo.gutierrez.9843/" target="_blank">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/pablogutierrez.exe/" target="_blank">Instagram</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>    
     </header>
     <main>
         <section>
-            <article>
-                <p>
-                    Nombre: Pablo 
-                </p>
-                <p>
-                    Apellido: Gutierrez
-                </p>
-                <p>
-                    Edad: 26 Años
-                </p>
-                <p>
-                    Email: pabloexegutierrez@gmail.com
-                </p>
-                <p>
-                    Profesion: Ingeniero en Computacion
-                </p>
-            </article>
+            <h3>Datos personales</h3>
+            <div class="datos">
+                <article>
+                    <p>
+                        <b>Nombre:</b> Pablo 
+                    </p>
+                    <p>
+                        <b>Apellido:</b> Gutierrez
+                    </p>
+                    <p>
+                        <b>Edad:</b> 26 Años
+                    </p>
+                    <p>
+                        <b>Email:</b> pabloexegutierrez@gmail.com
+                    </p>
+                    <p>
+                        <b>Profesion:</b> Ingeniero en Computacion - Astrofisico
+                    </p>
+                </article>
+            </div>    
         </section>
-        <section>
+        <section class="estudios">
             <ul>
                 <li>
-                    <p>Estudios: Facultad de Ciencias Exactas y Tecnologia</p>
+                    <p class="estudios__tit">Estudios</p>
+                    <p>Facultad de Ciencias Exactas y Tecnologia</p>
+                    <p>NASA</p>
                 </li>
                 <li>
-                    <p>Datos Laborales</p>
+                    <p class="estudios__tit">Datos Laborales</p>
                     <p>2018-2022: Instituto de Prevision y Seguridad Social de Tucuman</p>
                     <p>2022: Facultad de Ciencias Exactas y Tecnologia</p>
+                    <p>2022: Atronauta con futura mision a Marte</p>
                 </li>
             </ul>
         </section>
     </main>  
-    <footer>
-        Copyright 2022 Pablo Gutierrez &copy; Te quiero guido <3
+    <footer class="footer">
+        Copyright 2022 Pablo Gutierrez &copy; Te quiero guido 
     </footer>  
+</div>
 </body>
 </html>

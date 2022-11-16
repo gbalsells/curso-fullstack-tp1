@@ -4,35 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/estilos/juanbobadilla.css">
+    <script src="scripts/juanBobadilla.js"></script>
+    <title>Página Personal</title>
     
 
 </head>
 
 <body>
-    <header>
-        <h2>Juan Pablo Bobadilla</h2>
-    </header>
-    <nav>
+    <!-- Por ahora lo voy a plantear sin header ni footer. -->
+    <main>   
+        <div id="parteIzquierda">
+        <article id="parteSuperior">
+            <div id="imagenPerfil">
+                <figure><img src="img/JuanPabloBobadilla/FotoPerfil.jpg" alt=""></figure>
+            </div>
+            <div id="textoImagen">
+                <div id="nombreTextoSuperior">
+                <h1 class="textoSuperior">Bobadilla Juan Pablo</h1>
+                </div>
+                <div id="parrafoContenedorSuperior">
+                <p class="textoSuperior">Estudiante de Ing. en Informática</p>
+                <p class="textoSuperior">Monteros - Tucumán</p>
+                <p class="textoSuperior">23 años</p>
+                </div>
+            </div>
+        </article>
+        
+        <article id="parteInferior">
+            <h2 class="textoInferior">Bio</h2>
+            <p class="textoInferior">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </article>
+        </div>
+
+        <article id="parteDerecha">
+            <div id="contenedorTextoDerecha">
+            <p class="textoDerecha">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+            <p class="textoDerecha">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+        </article>
+    </main>
+
+    <nav id="menuEnlaces">
         <ul>
-            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-            <li><a href="https://ar.linkedin.com/" target="_blank">Linkedin</a></li>
+            <li><a href="https://www.instagram.com/juampi348/" target="_blank" id="enlaceInstagram"><img src="img/JuanPabloBobadilla/instagramIcon.png" class="imagenEnlace"></a></li>
+            <li><a href="https://github.com/bobadillajuan" target="_blank" id="enlaceGithub"><img src="img/JuanPabloBobadilla/githubIcon.png" class="imagenEnlace"></a></li>
         </ul>
     </nav>
-    <section>
-        <p>Juan Pablo Bobadill</p>
-        <p>Edad: 23</p>
-        <p>Mail: juampi348@gmail.com</p>
-    </section>
-    <section>
-        <p>UNT FACET Ing. en Informática</p>
-        <p>Esc. Normal Julio Argentino Roca (Monteros)</p>
-    </section>
-    <p>Bobadilla Juan Pablo</p>
 
-    <footer>
-        Footer
-    </footer>
 </body>
 </html>

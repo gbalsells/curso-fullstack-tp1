@@ -1,86 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Enzo Semola" />
-    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/CABJ70.png/640px-CABJ70.png" type="image/x-icon">
-    <title>TP 2 - FACET - UNT</title>
-    <style>
-        table,tr,th, td,
-        th,td{
-          border: 1px solid black;
-          border-collapse: collapse;
-        }
-    h1, h3, h4 {
-        font-weight: bold;
-        color: blue;
-      }
-      </style>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>TP 2 - FACET - UNT</title>
+  <meta name="author" content="Enzo Semola" />
+  <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/CABJ70.png/640px-CABJ70.png"
+    type="image/x-icon" />
+  <!-- Estilos css   -->
+  <link rel="stylesheet" href="./estilos/semolaenzo.css" />
+  <!-- Archivo js -->
+  <script src="./scripts/semolaenzo.js"></script>
+  <!-- Bootstrap v5.2 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
     <header>
-      <img
-        src="https://imagenes.elpais.com/resizer/NlRtYW609VF3dG6HrfGsQnSYEGY=/414x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/OBP3UPX325HQXIFM6I4QQOHAIQ.jpg "width="250" height="150"/>
-      <h1><i>Juan Roman Riquelme</i></h1>
+      <div class="caja-principal">
+        <img class="img-caja-principal"
+          src="https://imagenes.elpais.com/resizer/NlRtYW609VF3dG6HrfGsQnSYEGY=/414x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/OBP3UPX325HQXIFM6I4QQOHAIQ.jpg "
+          width="250" height="150" />
+        <h1><i>Juan Roman Riquelme</i></h1>
+      </div>
     </header>
-    <nav>
-      <ol>
-        <li>
-          <a href="https://www.instagram.com/todosobreroman10/">Instagram</a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/watch?v=0iTXwlvyhSw">Youtube</a>
-        </li>
-      </ol>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="https://es.wikipedia.org/wiki/Juan_Román_Riquelme">Bibliografia</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Redes Sociales
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.instagram.com/todosobreroman10/">Instagram</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=0iTXwlvyhSw"">Youtbe</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <section>
-        <h3>Datos personales:</h3>
-        <li> <b>Nombre completo:</b> Juan Roman Riquelme</li>
-        <li> <b>Edad:</b> 44 Años</li>
-        <li> <b>Nacionalidad:</b> Argentino</li>
-        <li> <b>Cargo:</b> Vicepresidente del mejor equipo de la argentina</li>
-    </section>
-    <section>
-        <h3>Trayectoria:</h3>
-        <table>
-            <tr>
-                <th>Equipo</th>
-                <th>Pais</th>
-                <th>Año</th>
-            </tr>
-            <tr>
-                <td>Argentino Juniors</td>
-                <td>Argetina</td>
-                <td>1991-1996</td>
-            </tr>
-            <tr>
-                <td>Boca Juniors</td>
-                <td>Argetina</td>
-                <td>1996-2002</td>
-            </tr>
-            <tr>
-                <td>Barcelona </td>
-                <td>España</td>
-                <td>2003-2007</td>
-            </tr>
-            <tr>
-                <td>Boca Juniors</td>
-                <td>Argetina</td>
-                <td>2007-2014</td>
-            </tr>
-        </table>
-    </section>
-    <section>
-        <h4>Momento historico: </h4>
-        <img src="https://ugc.kn3.net/i/760x/http://4.bp.blogspot.com/-kK7ALog4wVQ/UwyzPDbdEqI/AAAAAAAAAHo/w9LOP1o8pDc/s1600/caño+de+riquelme.gif"width="250" height="250"/>
-
-    </section>
-    <br>
-  </body>
-  <footer>
-    <img
-        src="https://www.facet.unt.edu.ar/wp-content/uploads/2022/04/FACET-cabecera-2022.png"width="200" height="50"/>
-    <p> <b>Autor:</b> Enzo Semola - Facet - UNT</p>
-    </footer>
+      <div class=" container">
+        <div class="row">
+          <div class="col-md-5 caja1">
+            <h3>Datos personales:</h3>
+            <li><b>Nombre completo:</b> Juan Roman Riquelme</li>
+            <li><b>Edad:</b> 44 Años</li>
+            <li><b>Nacionalidad:</b> Argentino</li>
+            <li><b>Cargo:</b> Vicepresidente del mejor equipo de la Argentina</li>
+        </div> 
+        <div class="col-md-7 caja2">
+          <h3>Breve reseña:</h3>
+          <div class=" bio">
+            Es un exfutbolista argentino, y actual vicepresidente y director
+            deportivo del Club Atlético Boca Juniors. Un emblema del "clásico
+            número 10", Riquelme se destacó como uno de los más aclamados
+            mediocampistas de su generación, y uno de los últimos referentes de su
+            posición.Además, es ampliamente nombrado como el mejor jugador de la
+            historia de Boca Juniors y una de sus más importantes figuras, debido
+            a su desempeño por 13 temporadas (1996-2014) en el club, en las que
+            consiguió ganar tres Copas Libertadores de América y una Copa
+            Intercontinental, entre otros títulos.
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+  <section>
+    <div class="container">
+    <h3>Trayectoria:</h3>
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th>Equipo</th>
+          <th>Pais</th>
+          <th>Año</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+        <tr>
+          <td>Argentino Juniors</td>
+          <td>Argetina</td>
+          <td>1991-1996</td>
+        </tr>
+        <tr>
+          <td>Boca Juniors</td>
+          <td>Argetina</td>
+          <td>1996-2002</td>
+        </tr>
+        <tr>
+          <td>Barcelona</td>
+          <td>España</td>
+          <td>2003-2007</td>
+        </tr>
+        <tr>
+          <td>Boca Juniors</td>
+          <td>Argetina</td>
+          <td>2007-2014</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </section>
+  <section>
+    <div class="container">
+    <h4>Momentos historico:</h4>
+    <div class="contenedor">
+      <div class="momentos">
+        <img class="img"
+          src="https://ugc.kn3.net/i/760x/http://4.bp.blogspot.com/-kK7ALog4wVQ/UwyzPDbdEqI/AAAAAAAAAHo/w9LOP1o8pDc/s1600/caño+de+riquelme.gif" />
+        <p class="textoImagenes">Caño a Rojas</p>
+      </div>
+      <div class="momentos">
+        <img class="img" src="https://media.tenor.com/G9VvgE3QezoAAAAM/riquelme-pidiendo-aliento.gif" />
+        <p class="textoImagenes">Festejo contra River </p>
+      </div>
+      <div class="momentos">
+        <img class="img" src="https://j.gifs.com/vnWNa5.gif" />
+        <p class="textoImagenes">Topo gigio</p>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section>
+    <div class="card border-dark mb-3">
+      <div class="card-header">
+        <div id="formmje">Enviale tu mensaje a Roman</div>
+      </div>
+      <div class="card-body text-dark">
+        <form class="row g-3">
+          <div class="col">
+            <label class="form-label">Apellido</label>
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+          </div>
+          <div class="col">
+            <label class="form-label">Nombre</label>
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+          </div>
+          <div class="col">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Nacionalidad: </label>
+            <select class="form-select form-select-mb" aria-label=".form-select-sm example">
+              <option selected>Selecciona una opcion del menu</option>
+              <option value="1">Argentina</option>
+              <option value="2">Brasil</option>
+              <option value="3">Otro</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="card-footer">
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" style="float: right;">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+</body>
+<footer class="footer">
+  <img src="https://www.facet.unt.edu.ar/wp-content/uploads/2022/04/FACET-cabecera-2022.png" width="200" height="50" />
+  <p class="footer-descripcion">&copy;Autor: Enzo Semola - Facet - UNT</p>
+</footer>
 </html>

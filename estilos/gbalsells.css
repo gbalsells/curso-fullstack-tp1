@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+
+header {
+  text-align: center;
+  background-color: darkslateblue;
+  color: white;
+  padding: 1em 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 50;
+}
+
+h1 {
+  font-size: 32px;
+  transition: 700ms linear;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+header h1:hover {
+  color: rgb(245, 255, 108);
+}
+
+h2 {
+  font-size: 26px;
+  transition: 700ms linear;
+  margin: 0;
+}
+
+
+header h2:hover {
+  color: rgb(245, 255, 108);
+}
+
+ul {
+  margin-left: 1em;
+}
+
+section h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: darkslateblue;
+}
+
+section h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 5px 0
+}
+
+main {
+  padding: 2em;
+  margin-top: 6em;
+}
+
+section {
+  padding: 1em;
+  box-shadow: 2px 4px 20px;
+  transition: 100ms linear;
+}
+
+.datosPersonales {
+  display: flex;
+  margin: 2em 0;
+}
+
+.datosPersonales section {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.datosPersonales img {
+  width: 300px;
+  margin-right: 2em;
+  border-radius: 200px;
+  box-shadow: 0 0 10px;
+  transition: 200ms linear;
+  animation-duration: 3000ms;
+  animation-name: imagen;
+}
+
+@keyframes imagen {
+  from {
+    margin: 0 27em 0 -25em;
+  }
+
+  to {
+    margin-left: 0px;
+  }
+}
+
+.datosPersonales img:hover {
+  transform: scale(107%);
+  box-shadow: 0 0 30px;
+}
+
+section:hover {
+  transform: scale(102%);
+  box-shadow: 0 0 30px;
+}
+
+.experienciaLaboral {
+  margin-bottom: 2em;
+}
+
+.experienciaLaboral__trabajo {
+  margin-bottom: 3em;
+}
+
+.experienciaLaboral__trabajo:nth-of-type(3) {
+  margin-bottom: 0;
+}
+
+.datosPersonales span {
+  font-weight: bold;
+}
+
+.educacion {
+  margin-bottom: 3em;
+}
+
+footer {
+  background-color: darkslateblue;
+  color: white;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+}
+
+.socialLinks {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer a {
+  color: white;
+  font-size: 10px;
+  transition: 200ms linear;
+  display: flex;
+  align-items: center;
+}
+
+footer a p {
+  margin: 0 3px;
+}
+
+footer a:hover {
+  color: rgb(245, 255, 108);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+footer a svg {
+  width: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  section h1 {
+    font-size: 18px;
+  }
+
+  section h2 {
+    font-size: 16px;
+  }
+
+  section p {
+    font-size: 14px;
+  }
+
+  .datosPersonales {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .datosPersonales img {
+    width: 200px;
+    margin: 0 0 2em 0;
+  }
+
+  footer a p {
+    display: none;
+  }
+
+  .socialLinks {
+    width: 60%;
+  }
+
+  footer a svg {
+    width: 20px;
+  }
+}

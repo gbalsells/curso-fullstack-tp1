@@ -1,0 +1,116 @@
+.presentacion {
+    background-color: rgb(0, 86, 140);
+    display: flex;
+    flex-direction: row;
+}
+
+.presentacion_foto{
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    text-align: justify;
+
+}
+
+#presentacion_foto {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: 10px solid rgb(17, 17, 102);
+}
+
+.presentacion_info-contacto{
+    width: 50%;
+    padding: 5%;
+    text-align: justify;
+}
+
+#presentacion_info-contacto_hola{
+    font-family: 'Dancing Script', serif;
+    color: white;
+    font-size: 70px;
+    text-shadow: -1px -1px 1px rgb(0, 0, 0);
+}
+
+#info_espaciado {
+    padding-left: 10%;
+}
+
+.presentacion_info-contacto_info{
+    font-family: serif;
+    color: white;
+    font-size: 25px;
+    text-shadow: -1px -1px 1px rgb(0, 0, 0);
+    
+}
+
+#barra{
+    background-color: rgb(17, 17, 102);
+    margin: 0px;
+}
+
+#barra ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#barra li{
+    margin: 0px;
+    width: 25%;
+    height: 100%;
+    padding: 15px;
+}
+
+#barra li:hover{
+    background-color: #081729;
+}
+
+#barra li a {
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: serif;
+    text-decoration: none;
+    width: 100%;
+    font-weight: 700;
+}
+
+.seccion{
+    margin: 200px;
+}
+
+.seccion_titulo_texto{
+    text-align: center;
+    font-family: 'Dancing Script', serif;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.seccion_contenido{
+    text-align: center;
+    font-style: italic;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.seccion_contenido_subtitulo { 
+    font-size: large;
+}
+
+footer{
+    background-color: rgb(17, 17, 102);
+    text-align: center;
+    font-size: medium;
+    padding: 5px;
+    color: white;
+    font-style: italic;
+}

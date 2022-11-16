@@ -5,14 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/piazzasantiago.css">
     <title>Santiago Piazza</title>
+    <script src="./scripts/piazzasantiago.js"></script>
 </head>
 
 <body>
-    <header style="font-family:Arial, Helvetica, sans-serif; color: blueviolet;">
-        <h1>Santiago Nicolás Piazza</h1>
+    <header>
+        <div class="header">
+            <div class="box1">
+                <h1 id="nombre">Santiago Nicolás Piazza</h1>
+                <h3 id="carrera">Ingeniería en Computación UNT</h3>
+                <h3 id="tucuman">Tucumán, Argentina</h3>
+                <h3 id="edad">21 años</h3>
+                <img id="perfil" src="https://avatars.githubusercontent.com/u/102101600?v=4" alt="">
+            </div>
+        </div>
     </header>
-    <nav style="font-family:Arial, Helvetica, sans-serif">
+    <nav>
         <h2>Contacto: </h2>
         <ol>
             <li>
@@ -26,29 +36,30 @@
             </li>
         </ol>
     </nav>
-    <section style="font-family:Arial, Helvetica, sans-serif">
+    <section>
         <article>
             <h2>Mis datos personales</h2>
-            <h4>Nombre: Santiago Nicolás Piazza</h4>
-            <h4>Carrera: Ing. en Computación</h4>
-            <h4><a href="mailto:piazzasantiago2016@gmail.com">Email: piazzasantiago2016@gmail.com</a></h4>
+            <h4 class="personales">Nombre: Santiago Nicolás Piazza</h4>
+            <h4 class="personales">Carrera: Ing. en Computación</h4>
+            <h4 class="personales"><a href="mailto:piazzasantiago2016@gmail.com">Email: piazzasantiago2016@gmail.com</a>
+            </h4>
         </article>
     </section>
-    <section style="font-family:Arial, Helvetica, sans-serif">
+    <section>
         <h2>Información académica</h2>
         <ol>
             <li>
-                <h4 style="font-style: italic;">Secundario</h4>
+                <h4 class="academica">Secundario</h4>
                 <p>(2014-2019) Colegio del Sol</p>
                 <p>Orientación en Ciencias Sociales y Humanidades</p>
             </li>
             <li>
-                <h4 style="font-style: italic;">Universidad</h4>
+                <h4 class="academica">Universidad</h4>
                 <p>(desde 2021) FACET UNT - Ingeniería en Computación</p>
                 <p>Actualmente cursando 2°Año Módulo IV</p>
             </li>
             <li>
-                <h4 style="font-style: italic;">Idiomas</h4>
+                <h4 class="academica">Idiomas</h4>
                 <p>Español: Nativo</p>
                 <p>Inglés: Avanzando (C2)</p>
                 <p>Francés: Intermedio (B1)</p>
@@ -56,7 +67,15 @@
             </li>
         </ol>
     </section>
-    <footer style="font-family:Arial, Helvetica, sans-serif">
+    <section class="fotos">
+        <div class="socialLinks">
+            <a href="https://instagram.com/piazzasantiago">
+                <img id="ig" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="">
+                <p id="user">@piazzasantiago</p>
+            </a>
+        </div>
+    </section>
+    <footer id="footer">
         Gracias por leer! :) Santiago Piazza &copy;
     </footer>
 </body>

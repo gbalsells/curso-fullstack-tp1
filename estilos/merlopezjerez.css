@@ -1,0 +1,121 @@
+
+body {
+    font-family: "montserrat", sans-serif;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 1rem;
+}
+
+ul {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 1rem;
+}
+
+footer {
+    background-color:rgb(255, 141, 199);
+    text-align: center;
+}
+
+.presentacion {
+    background-color:rgb(255, 141, 199);
+}
+
+.presentacion_foto {
+    background: url("https://img.freepik.com/vector-premium/programadora-trabajando_24911-69917.jpg?w=350");
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:100%;
+    margin: auto;
+}
+
+.presentacion_titulo {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.presentacion_contenido {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.presentacion_lista {
+    margin: 0 0 0 1rem;
+    padding: 1rem;
+}
+.presentacion_lista_link a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.presentacion_lista_link:hover{
+    text-decoration: underline;
+}
+
+.datosPersonales{
+    background-color:rgb(255, 172, 199);
+    font-size: 20px;
+}
+
+.formacionAcademica{
+    background-color:rgb(255, 221, 210);
+    font-size: 20px;
+    margin: 0;
+}
+
+.skills {
+    background-color:rgb(255, 221, 210);
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.skills_titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto 1rem;
+    padding: 1rem;
+}
+
+.skills_lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.skills_listaitem{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 200px;
+    background-color: #fdfdfd;
+    margin: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100%;
+    max-width: 200px;
+}
+
+.skills_listaitem_titulo{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: .2rem;
+}

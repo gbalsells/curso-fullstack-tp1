@@ -1,0 +1,67 @@
+
+
+#css_ref {
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+    padding: 20px;
+    float: left;
+    
+
+}
+#contenedor{
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    border-width: 10px;
+    background-color: rgb(234, 238, 240);
+    border-style:groove;
+    border-radius: 10px;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+/*
+* {
+    font-style: normal;
+    font-size: 12px;
+    color: rgb(67, 67, 80);
+    float: left;
+    background-color: rgb(247, 243, 243);
+}
+*/
+#redes {
+    color: blue;
+    font-size: 10px;
+}
+
+#titulo_ppal {
+    color: rgb(55, 124, 136);
+    font-size: 25px;
+    font-style: italic;    
+    text-align: center;
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.61);
+}
+
+#datos {
+    /*font-style: oblique 40deg;*/
+    
+}
+
+#titulo {
+    color: rgba(20, 141, 221, 0.829);
+    font-size: 20px;
+    text-decoration-line:underline;
+}
+
+#detalle_datos {
+    color: rgba(23, 23, 26, 0.452);
+}
+
+#contenido {
+    color: rgba(15, 15, 19, 0.671);
+}
+
+   
