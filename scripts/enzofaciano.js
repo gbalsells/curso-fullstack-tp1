@@ -51,3 +51,19 @@ let resultado3 = "El número " + mayor(numero1,numero2) + " es el mayor";
 console.log(resultado3);
 // Punto 3
 console.log("Longitud de resultado1: " + resultado1.length)
+function isCharNumber(c) {
+    return c >= '0' && c <= '9';
+}
+for (let i = 0; i < resultado2.length; i++) {
+    if (isCharNumber(resultado2[i])){
+        console.log("El índice de resultado2 que indica el resultado de la multiplicación es: " + i);
+        break;
+    }
+}
+let cadena = ""
+for (let i = 0; i < resultado3.length; i++) {
+    if (isCharNumber(resultado3[i])){
+        cadena += resultado3[i]
+    }
+}
+console.log("El número " + cadena + " es el mayor (leyendo sólo resultado3)");
