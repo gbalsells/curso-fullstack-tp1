@@ -1,4 +1,4 @@
-//Ejercicio 1
+/* //Ejercicio 1
 
 let numero1 = 18;
 let numero2 = 50;
@@ -28,4 +28,31 @@ let ej3_3 = "Número 1 es mayor que numero 2? " + (resultado1 == valor_mayor? tr
 console.log(ej3_1)
 console.log(ej3_2)
 console.log(ej3_3)
+ */
+
+let contacto = new Object();
+
+let botonEnviar = document.getElementById("enviar")
+botonEnviar.addEventListener("click", enviarDatos)
+
+function enviarDatos() {
+
+    contacto = {
+        nombre:     document.getElementById("nombre").value,
+        apellido:   document.getElementById("apellido").value,
+        telefono:   document.getElementById("telefono").value,
+        }
+
+  if (contacto.nombre === "" || contacto.telefono === "" || contacto.telefono === "") {
+    alert("Debe completar todos los campos")
+  } else {
+    alert(`¡Mensaje Enviado! Gracias por contactarte, ${contacto.nombre} ${contacto.apellido}.`)
+
+    console.log(
+      `Nombre: ${contacto.nombre} ${contacto.apellido},
+       Teléfono: ${contacto.telefono},
+       Mensaje:  ${contacto.mensaje}`
+    )
+  }
+}
 
