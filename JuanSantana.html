@@ -91,7 +91,70 @@
         </section>
     </body>
     <footer class="pie">
-        <h4>Contacto</h4>
+        <section class="contacto">
+            <h4>Contacto</h4>
+<!--Practico 5-->
+            <form>
+                <p>Apellido y Nombre</p>
+                <input id="apynom" required="true" placeholder="Ingrese su Apellido y Nombre">
+                <p>Telefono</p>
+                <input id="tel" required="true"type="number" min="0" placeholder="Ingrese su Telefono">
+                <p>Mensaje</p>
+                <textarea id="msj" style="resize:none;" required="true" rows="10" cols="50"></textarea>
+                <input type="button" id="enviar" value="Enviar"/>
+                <script>
+                    //Obtengo las referencias a los objetos del DOM
+                    const apynom = document.getElementById('apynom');
+                    const tel = document.getElementById('tel');
+                    const msj = document.getElementById('msj');
+                    const btn = document.getElementById('enviar');
+                    //Creo el objeto donde se guardaran los datos
+                    var informacion = {
+                        nombre: "",
+                        telefono: "",
+                        mensaje: ""
+                    }
+                    //const apynomfunct = (e) => {console.log(e.target.value)};
+                    //const telfunct = (e) => {console.log(e.target.value)};
+                    //const msjfunct = (e) => {console.log(e.target.value)};
+                    //Creo la funcion que se ejecutará en el boton
+                    const btnfunct = (e) => {
+                        //Verifico que nombre no sea vacio
+                        if(apynom.value==""){
+                            alert("El campo Apellido y Nombre no puede estar vacio");
+                            e.preventDefault();
+                        }else{
+                            //Verifico que telefono no sea vacio
+                            if(tel.value==""){
+                                alert("El campo telefono no puede estar vacio");
+                                e.preventDefault();
+                            }else{
+                                //Verifico que mensaje no sea vacio
+                                if(msj.value==""){
+                                    alert("El campo mensaje no puede estar vacio");
+                                    e.preventDefault();
+                                }else{
+                                    //Si todo esta correcto agrego los valores al objeto
+                                    informacion.nombre = apynom.value;
+                                    informacion.telefono = tel.value;
+                                    informacion.mensaje = msj.value;
+                                    //Muestro el objeto por consola
+                                    console.log(informacion);
+                                    //Muestro el alert con el nombre ingresado
+                                    alert(`Mensaje Enviado! Gracias por contactarte ${informacion['nombre']}`);
+                                    //e.preventDefault();
+                                }
+                            }
+                        }
+                    };
+                    //apynom.addEventListener('change',apynomfunct);
+                    //tel.addEventListener('change',telfunct);
+                    //msj.addEventListener('change',msjfunct);
+                    //Agrego el listener al boton con el evento Click
+                    btn.addEventListener('click',btnfunct);
+                </script>
+            </form>
+        </section>
         <section class="info">
             <p>
                 Mail:     juanalfa1000@gmail.com.ar
