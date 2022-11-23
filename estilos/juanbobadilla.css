@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* CSS PARA MAIN */
+
+main{
+    background-color: #7FBD67;
+    display: flex;
+}
+
+body{
+    background-color: #7FBD67;
+}
+
+/* ---- CSS PARTE IZQUIERDA ---- */
+
+/* CSS PARTE SUPERIOR */
+
+#parteSuperior{
+    display: flex;
+}
+
+#textoImagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textoSuperior{
+    margin: 0.3rem;
+}
+
+#nombreTextoSuperior h1{
+    margin: 1.5rem;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#parrafoContenedorSuperior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* CSS PARA IMAGEN */
+
+#imagenPerfil{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#imagenPerfil figure img{
+    margin: 1rem;
+    width: 12rem;
+    border: 0.1em #702669 solid;
+    border-radius: 5%;
+}
+
+/* CSS PARTE INFERIOR */
+
+#parteInferior{
+    text-align: center;
+    margin: 1rem;
+    border: #702669 solid;
+    border-width: 0.15rem 0 0 0;
+}
+
+#parteInferior h2{
+    margin: 1rem;
+}
+
+
+
+/* CSS PARTE LATERAL DERECHA */
+
+#parteDerecha{
+    display: flex;
+    justify-content: center;
+}
+
+#contenedorTextoDerecha{
+    margin: 3rem;
+    background-color: #BD66B5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 1%;
+    border: #702669 0.1rem solid;
+}
+
+.textoDerecha{
+    text-align: center;
+    margin: 1rem;
+}
+
+/* CSS PARA NAV */
+
+#menuEnlaces{
+    background-color: #7FBD67;
+}
+
+#menuEnlaces ul{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#menuEnlaces ul li{
+    width: 7rem;
+    height: 10%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border: #702669 solid;
+    border-width: 0 0 0.15rem 0;
+}
+
+#menuEnlaces ul li a{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin: 2rem;
+    margin-top: 0;
+
+}
+
+#menuEnlaces ul li:first-child a{
+    margin-right: 0;
+}
+
+#menuEnlaces ul li:last-child a{
+    margin-left: 0;
+}
+
+.imagenEnlace{
+    width: 100%;
+}
+

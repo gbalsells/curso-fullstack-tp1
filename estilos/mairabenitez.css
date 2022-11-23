@@ -11,6 +11,10 @@ h1 {
     margin: 20px;
 }
 
+h1~p {
+    color: white;
+}
+
 #subtituloSecundario {
     font-size: 20;
     text-decoration: underline;
@@ -20,55 +24,157 @@ span {
     font-weight: bold;
 }
 
-.Cabecera {
+.cabecera {
     text-align: center;
     text-shadow: 10px 10px 20px black;
-    background-color: chocolate;
+    background-image: url("https://acegif.com/wp-content/uploads/gifs/gif-marvel-74.gif");
+    background-position: center;
+    background-size: cover;
 }
 
-.Cabecera__titulo {
-    font-size: 60px;
+
+.cabecera__titulo {
+    font-size: 55px;
     text-decoration: underline;
-    color: black;
+    background-color: rgb(131, 14, 14);
+    color: white;
     margin: 20px;
 }
 
-.Cabecera__imagen {
+.cabecera__imagen {
     width: 200px;
     margin: 5px;
+    border-radius: 20%;
+    transition: 500ms linear;
+    animation-duration: 3000ms;
+    animation-name: imagen;
 }
 
-.DatosCentrales {
+@keyframes imagen {
+    from {
+        margin: 0 27em 0 -100em;
+    }
+
+    to {
+        margin-left: 0px;
+    }
+}
+
+.cabecera__imagen:hover {
+    transform: scale(120%);
+    box-shadow: 0 0 20px;
+}
+
+.datos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 25px;
+    line-height: 30px;
+    color: white;
+}
+
+.datos__personales {
     text-align: center;
     font-size: 20px;
-    width: 400px;
-    height: 300px;
-    margin: 20px;
-    float: left;
-    background-color: rgb(255, 123, 0);
+    margin: 10px;
+    background-color: rgb(131, 14, 14);
 }
 
-.Extra {
-    clear: left;
+.datos__laborales {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    background-color: rgb(131, 14, 14);
+}
+
+.datos__academicos {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    background-color: rgb(131, 14, 14);
+}
+
+.extra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 70px;
+}
+
+.extra__datos {
     text-align: center;
     font-size: 15px;
-    padding: 10px;
-    border: 5px solid rgb(255, 123, 0);
+    line-height: 30px;
+    color: white;
+    margin: 10px;
+    width: 450px;
+    height: 250px;
+    background-image: url("https://cdn.fansshare.com/image/moviewallpapers/marvel-movie-iron-man-hd-wallpaper-1277246029.jpg");
+    background-position: center;
+    border: 5px solid rgb(131, 14, 14);
 }
 
-.Preguntas {
+.extra__img {
+    margin: 10px;
+}
+
+.extra :hover {
+    transform: scale(110%);
+    box-shadow: 0 0 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-image: url("https://sm.ign.com/t/ign_it/news/m/marvel-can/marvel-canceled-an-open-world-iron-man-game-from-the-studio_ram2.1280.jpg");
+    background-size: cover;
+    animation: movimiento 5000ms infinite linear alternate;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: bottom left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+
+.formulario__preguntas {
+    width: 400;
+    height: 400px;
     font-size: 15px;
-    width: 500;
-    padding: 10px;
-    margin: 50px;
-    float: left;
-    background-color: chocolate;
+    line-height: 50px;
+    color: black;
 }
 
 .enlacesAdheridos {
-    text-decoration: underline;
-    clear: left;
-    font-size: 20px;
-    color: orangered;
-    margin: 20px;
+    width: 30px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.footer {
+    background-color: rgb(131, 14, 14);
+    text-align: center;
+    color: white;
+    height: 40px;
+}
+
+@media screen and (max-withd: 40%) {
+
+    .datos {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .extra {
+        flex-direction: column;
+        justify-content: center;
+    }
 }

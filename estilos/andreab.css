@@ -1,5 +1,5 @@
 
-.datos {
+.datos{
     background-color: greenyellow;
     color: black;
   }
@@ -10,8 +10,11 @@
 
 h2{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; }
 
-span {
-      font-weight: 200;
-      }git 
 
 h4{ font-size: large;  text-decoration:underline; }
+
+.N{
+  color: red;
+  font-style: italic;
+  font-weight:bold;
+}
