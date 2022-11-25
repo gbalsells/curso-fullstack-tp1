@@ -33,10 +33,9 @@ span {
 .datosPersonales {
     width: 98%;
     margin-top: 4%;
-    margin-bottom: 5%;
     margin-left: 2%;
     grid-column: 1;
-    grid-row: 2 / span 3;
+    grid-row: 1 / span 2;
     border-radius: 10px;
     padding-left: 2%;
     padding-right: 2%;
@@ -69,13 +68,13 @@ span {
 .conocimientos {
     width: 98%;
     margin-right: 2%;
-    margin-bottom: 3%;
     grid-column: 2;
     grid-row: 3 ;
     border-radius: 10px;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 0.5%;
+    padding-bottom: 1%;
     background-color: white;
 }
 footer {
@@ -84,7 +83,7 @@ footer {
     width: 100%;
     bottom: 0;
     padding: 1em;
-    position: fixed;
+    position: relative;
 }
 footer a {
     color: white;
@@ -100,6 +99,34 @@ footer a {
     margin-left: auto;
     margin-right: auto;
 }
+.contactame {
+    width: 98%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    background-color: white;
+}
+#btnEnviar {
+    background-color: orange;
+    margin: 1%;
+    color: white;
+    font-weight: bolder;
+}
+#btnEnviar:hover {
+    background-color: green;
+    margin: 1%;
+    color: white;
+    font-weight: bolder;
+}
+textarea {
+    width: 100%;
+    margin: 1%;
+}
 @media only screen and (max-width: 767px){
     footer {
       margin-top: 10%;
@@ -108,11 +135,12 @@ footer a {
       width:100%;
     }
     .datosPersonales {
-        grid-row: 2;
+        grid-row: 1;
     }
     .conocimientos {
         grid-column: 1 / span 2;
         margin-left: 1%;
         margin-right: 1%;
+        padding-bottom: 0%;
     }
 }
