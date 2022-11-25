@@ -1,5 +1,6 @@
 * {
     font-family: sans-serif, Tahoma, Verdana;
+
 }
 
 header {
@@ -70,4 +71,41 @@ h4 {
 
 .der__article>h4 {
     color: #5d6266;
+}
+
+.form_contacto {
+    width: 100%;
+    height: 410px;
+    background-color: #162737;
+    margin: 0;
+    color: #f1db49db;
+
+}
+
+.form_contenedor_inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+label {
+    margin: 0 25px 0 0;
+}
+
+.textarea {
+    display: flex;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+
+.textarea>textarea {
+    width: 955px;
+    height: 164px;
+
+}
+
+#submit {
+    display: block;
+    float: right;
+    margin: 0 60px 0 0;
 }

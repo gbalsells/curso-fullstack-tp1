@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/lucassterpino.css">
-    <script src="./scripts/lucassterpino.js"></script>
     <title>Lucas Sterpino</title>
 </head>
 
@@ -34,10 +33,7 @@
                 <li>Carrera: Ing. en Computacion</li>
                 <li>Email: lsterpino@gmail.com</li>
             </article>
-            <footer>
-                <h4>Contacto:</h4>
-                <p>Cel: 03813904504</p>
-            </footer>
+
         </div>
         <section class="contendor_der">
             <header>
@@ -71,6 +67,31 @@
             </article>
         </section>
     </div>
+    <section>
+        <form class="form_contacto">
+            <h3>Contactame</h3>
+            <div class="form_contenedor_inputs">
+                <div class="input_nombre">
+                    <label for="nombre"><b>Nombre:</b></label>
+                    <input type="text" id="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="input_apellido">
+                    <label for="apellido"><b>Apellido:</b></label>
+                    <input type="text" id="apellido" placeholder="Ingrese su apellido">
+                </div>
+                <div class="input_telefono"> <label for="telefono"><b>Telefono:</b></label>
+                    <input type="" id="telefono" placeholder="Ingrese su telefono"
+                        onkeypress="return validacion(event)">
+                </div>
+            </div>
+            <div class=" textarea">
+                <label for="mensaje"><b>Mensaje:</b></label>
+                <textarea id="mensaje" placeholder="Deje un mensaje"></textarea>
+            </div>
+            <button type="submit" id="submit">Enviar</button>
+            <script src="./scripts/lucassterpino.js"></script>
+        </form>
+    </section>
 </body>
 
 </html>
