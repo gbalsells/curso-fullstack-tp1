@@ -34,8 +34,6 @@ if (resultado3.indexOf(numero2) === -1) {
 
 
 let contacto = new Object();
-let telefono = document.getElementById("telefono");
-telefono.addEventListener("keypress", validacion);
 let enviar = document.getElementById("submit");
 enviar.addEventListener("click", asignarContacto);
 
