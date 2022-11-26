@@ -1,46 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Maria Kuenneth">
+    <link rel="stylesheet" href="./estilos/estilosMariaKuenneth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Sans:wght@300&display=swap"
+        rel="stylesheet">
     <title>Maria Kuenneth</title>
 </head>
+
 <body>
     <header>
-        <img src="https://img.pikbest.com/background/20181119/technological-wind-glowing-blue-gradient-background_2749450.jpg!c1024wm0" alt="decoracion">
-        <h1>Trabajo Practico 2</h1>
-        <h2>María Kuenneth</h2>
-        <nav>
-            <ul>
-                <li>https://www.linkedin.com/in/mar%C3%ADa-kuenneth-a8483a218/</li>
-                <li>https://www.instagram.com/maruu_kuenneth/</li>
-            </ul> 
+        <div class="header__imagen">
+            <img class="header_div_imagen"
+                src="https://i.pinimg.com/736x/87/76/d4/8776d457619a9c05fd2f618c90a48ecd--facebook-banner-facebook-timeline.jpg"
+                alt="decoracion">
+        </div>
+
+        <h1 class="header__titulo">Trabajo Practico 3</h1>
+        <h2 class="header__subtitulo">María Kuenneth</h2>
+        <nav class="header__nav">
+            <span class="header_nav_span"><a href="https://www.instagram.com/maruu_kuenneth/"> <img
+                        class="imagen-Instagram"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg6nglVGHM1xSeKQf1f9JkzB4U-Nl4h5eRyTZWnARh3VhDZJFSucwKdMX_YI8HtSMBKiY&usqp=CAU"
+                        alt="instagram"> Instagram</a></span>
+            <span class="header_nav_span"><a href="https://www.linkedin.com/in/mar%C3%ADa-kuenneth-a8483a218/"><img
+                        class="imagen-Linkedin"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAAAD///9MTEz8/PyTk5PNzc339/c4ODjo6OhPT0+MjIzu7u6xsbERERGnp6fy8vIiIiLe3t6fn58+Pj5GRkaBgYF6enpfX1/R0dG6urqPj4/X19eZmZlmZmZZWVlkZGQuLi4xMTEZGRlycnK3t7fExMQnJycdHR0+1Fr0AAAFB0lEQVR4nO2daXeqMBCGQW8RcEG02kXa2lbo//+H17WKLJPKjFnO+3wup/Mck5BkksHzrwhHcTQdezYynkbxKLwW8sp62UB3mJ0ZZGGjYRDrjo6JOKg3nOgOjJFJjWES6Y6KlSi5NkwL3TExU6RlwwfdAQnwcGmY6o5GhPRsmLjWRA8Uya+hW4PMmehk6NJroszkYBjojkOQYG/oykymjnhnGOqOQpRwa5jpDkKUbGto/2qijYHvud1It83UG+kOQZiR5/JIuiP2XJ3PnIi8qe4QhJl6dm46qeO6HwAAACBB722ZbWaLt3fdgcjwcZG6GuZL3eGwsxxeJeb6bu0OPFUyjy6l47bMavycynfkDYK+H651x8ZCXQv9xYWdrOZfcD+q6g6vO0198MSz7gC78kQI+v5Md4gdae2EB+xOPy5pQf9Fd5CduJ7J1PKpO8oOfKgIWt0TR0qGNic/FMaZHXPdcd5MT03QX+gO9GbeFA3tPeyg8q7YkesO9GYyRUN7D1VtnDekZt32Gy4UDe3th+6Ppe+Khq+6A70dpYm371u8Q9y+g3Ei0R1mB9Re+VYfyuk73kjVZjUr3UF2I6ANe7pj7EZMCtr7uj/yQAgOv3RH2Blinf+oO77urFsFv3WHx8GgZWbjhOCW56Y+6EATPVK/UMztH2TOFC8Vv5Xl78EKn7PLQTUZWT1Va2K+mORpmuaTVyf1AAAAAAAAAACA+zL+Wc/n6+JHdxwyPC436anGU/j8Ejt2E3s+q+6vDx8Wwnd5e36/Hf9f/YMB9dz1ZY1lWtE70M+fZA0pGgzJ3GrZcNF6ZCAUvGZ1H8PKraqqo9j5x3sY/lAZvD0roVOsdzCkk7BHZA4myRtW8wWNpBJn5qUN100jaC2BQDZP2PBR4SRECf47j7KGc6XzOiXYO6Oo4effBflPYEka/iTU39TC/CtKGiq9Bmvg7YtyhvnrjYLM5yPkDIe3dMIDAed7Uc6wC5xH58005BxtDDVkvENuqiHfoVZTDX22NbGxhmzXOo01ZPsRzTXk+hHNNfSZduAMNmQ6YH43w2G6SsO/PWSTYf5d7He2p++bPyz6eTYY72DYL1cs+Fa8TsbVTOUNN5UqsZniszw3ysQN65papLj4ZznmKmzYrw/yS62YA8tiX9iwMT+o1Bk35hs2j4aPKs+zLDBEDdtq96jcI2eZuEka9ltT9Qrb/QFHASdJw/bKiyqFVThW+oKGAXHlZkUbcqQUBQ2pKYlCXpHj3pWgIbWELWhDjotJgobkKRK6mRpuSP7vpkuBthjSNSXp/LfZhnRJSboYgNmGdAHbfzCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEoYBhRP6Xhpug5HP0NWX6VhBHqehx1GsnWtc/SDzWi+j7n2vyfwuXiQYAAAAAAPfC9Ynd2KtUEnOMqefYl2oqRB5/IX6ziD3uIvWmMfLYatUaSugxVo02kYHvEfW2bCfbGrrdTMOtocBnTcwh9neGge4wBAn2hkJfUTKBiX8wZNlWNZH9ZvbeMOGor2geRfJryPo9DHM41M48ZhfoJIl9HD/Tc8qfpK411OJU/fQ3Q5S4Ndyci0lf5MBcemlMzlqXWb7AldlNfFm4vpzHDDP7VxqDrFwKvJKpDUdxNLVze2o8jeJRpdL5f2YjU4xtkVEnAAAAAElFTkSuQmCC"
+                        alt="linkedin"> Linkedin</a></span>
+            <span class="header_nav_span"><a href="https://es-la.facebook.com/"><img class="imagen-Facebook"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCaDRoE5lwkHt9t2hLWnbwKOFDvv4yqROYew&usqp=CAU"
+                        alt="Facebook"> Facebook </a></span>
+            <span class="header_nav_span"><a href="https://youtube.com/"><img class="imagen-Youtube"
+                        src="https://e7.pngegg.com/pngimages/687/692/png-clipart-youtube-logo-computer-icons-youtube-text-logo.png"
+                        alt="Facebook"> Youtube</a></span>
         </nav>
     </header>
     <section>
-        <main>
-            <p>
-                Hola! Mi nombre es María de los Ángeles Soria Kuenneth, ahora mismo estoy haciendo el tp2 del curso de Full Stack de Guido Balsells.
-                Tengo 20 años y actualmente estoy estudiando Ingeniería en Computación en la Universidad Nacional de Tucumán, Tucumán, Argentina.<span>Para contactarte conmigo enviame un correo electronico a: <nav>mariakuenneth@gmail.com </nav></span>
-            </p>
-        </main>
-    </section>
-    <section>
-        <main>
-            <h3>Lugares en los que estudié...</h3>
-            <ul>
-                <li>Colegio Santa Catalina</li>
-                <li>Instituto Rush</li>
-                <li>Universidad Nacional de Tucumán</li>
-            </ul>
-        </main>
+        <div class="section__div">
+            <article>
+                <p class="section_article_p">
+                    Hola! Mi nombre es María de los Ángeles Soria Kuenneth, ahora mismo estoy haciendo el tp3 del curso
+                    de Full Stack de Guido Balsells.
+                    Tengo 20 años y actualmente estoy estudiando Ingeniería en Computación en la Universidad Nacional de
+                    Tucumán, Tucumán, Argentina.<span> Para contactarte conmigo enviame un correo electronico a: <a
+                            href="mariakuenneth@gmail.com">mariakuenneth@gmail.com</a></span>
+                </p>
+            </article>
+            <br>
+            <br>
+            <article>
+                <h3 class="section_article_h">Lugares en los que estudié...</h3>
+                <ul>
+                    <li class="section_article_li">Colegio Santa Catalina</li>
+                    <li class="section_article_li">Instituto Rush</li>
+                    <li class="section_article_li">Universidad Nacional de Tucumán</li>
+                </ul>
+            </article>
+        </div>
     </section>
     <footer>
-        Sígueme en mis redes sociales
-        <a href="https://www.instagram.com/maruu_kuenneth/" target="_blank">Instagram</a> <img src="https://www.freepnglogos.com/images/logo-ig-png-32457.html" alt="Instagram">
-        <a href="https://www.linkedin.com/in/mar%C3%ADa-kuenneth-a8483a218/" target="_blank">Linkedin</a> <img src="https://www.freepnglogos.com/images/linkedin-logo-png-1836.html" alt="Linkedin">
+        <span  class="footer__span__redes" id="siguemeRedesSociales">Sígueme en mis redes sociales</span>
+
+            <span class="footer__span__redes">
+                <a class="footer__a" href="https://www.instagram.com/maruu_kuenneth/" target="_blank">
+                    <!-- <img class="imagen-Instagram"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg6nglVGHM1xSeKQf1f9JkzB4U-Nl4h5eRyTZWnARh3VhDZJFSucwKdMX_YI8HtSMBKiY&usqp=CAU"
+                    alt="Instagram"> -->
+                    Instagram
+                </a>
+            </span>
+            <span class="footer__span__redes">
+                <a href="https://www.linkedin.com/in/mar%C3%ADa-kuenneth-a8483a218/">
+                    <!-- <img class="imagen-Linkedin"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAAAD///9MTEz8/PyTk5PNzc339/c4ODjo6OhPT0+MjIzu7u6xsbERERGnp6fy8vIiIiLe3t6fn58+Pj5GRkaBgYF6enpfX1/R0dG6urqPj4/X19eZmZlmZmZZWVlkZGQuLi4xMTEZGRlycnK3t7fExMQnJycdHR0+1Fr0AAAFB0lEQVR4nO2daXeqMBCGQW8RcEG02kXa2lbo//+H17WKLJPKjFnO+3wup/Mck5BkksHzrwhHcTQdezYynkbxKLwW8sp62UB3mJ0ZZGGjYRDrjo6JOKg3nOgOjJFJjWES6Y6KlSi5NkwL3TExU6RlwwfdAQnwcGmY6o5GhPRsmLjWRA8Uya+hW4PMmehk6NJroszkYBjojkOQYG/oykymjnhnGOqOQpRwa5jpDkKUbGto/2qijYHvud1It83UG+kOQZiR5/JIuiP2XJ3PnIi8qe4QhJl6dm46qeO6HwAAACBB722ZbWaLt3fdgcjwcZG6GuZL3eGwsxxeJeb6bu0OPFUyjy6l47bMavycynfkDYK+H651x8ZCXQv9xYWdrOZfcD+q6g6vO0198MSz7gC78kQI+v5Md4gdae2EB+xOPy5pQf9Fd5CduJ7J1PKpO8oOfKgIWt0TR0qGNic/FMaZHXPdcd5MT03QX+gO9GbeFA3tPeyg8q7YkesO9GYyRUN7D1VtnDekZt32Gy4UDe3th+6Ppe+Khq+6A70dpYm371u8Q9y+g3Ei0R1mB9Re+VYfyuk73kjVZjUr3UF2I6ANe7pj7EZMCtr7uj/yQAgOv3RH2Blinf+oO77urFsFv3WHx8GgZWbjhOCW56Y+6EATPVK/UMztH2TOFC8Vv5Xl78EKn7PLQTUZWT1Va2K+mORpmuaTVyf1AAAAAAAAAACA+zL+Wc/n6+JHdxwyPC436anGU/j8Ejt2E3s+q+6vDx8Wwnd5e36/Hf9f/YMB9dz1ZY1lWtE70M+fZA0pGgzJ3GrZcNF6ZCAUvGZ1H8PKraqqo9j5x3sY/lAZvD0roVOsdzCkk7BHZA4myRtW8wWNpBJn5qUN100jaC2BQDZP2PBR4SRECf47j7KGc6XzOiXYO6Oo4effBflPYEka/iTU39TC/CtKGiq9Bmvg7YtyhvnrjYLM5yPkDIe3dMIDAed7Uc6wC5xH58005BxtDDVkvENuqiHfoVZTDX22NbGxhmzXOo01ZPsRzTXk+hHNNfSZduAMNmQ6YH43w2G6SsO/PWSTYf5d7He2p++bPyz6eTYY72DYL1cs+Fa8TsbVTOUNN5UqsZniszw3ysQN65papLj4ZznmKmzYrw/yS62YA8tiX9iwMT+o1Bk35hs2j4aPKs+zLDBEDdtq96jcI2eZuEka9ltT9Qrb/QFHASdJw/bKiyqFVThW+oKGAXHlZkUbcqQUBQ2pKYlCXpHj3pWgIbWELWhDjotJgobkKRK6mRpuSP7vpkuBthjSNSXp/LfZhnRJSboYgNmGdAHbfzCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEoYBhRP6Xhpug5HP0NWX6VhBHqehx1GsnWtc/SDzWi+j7n2vyfwuXiQYAAAAAAPfC9Ynd2KtUEnOMqefYl2oqRB5/IX6ziD3uIvWmMfLYatUaSugxVo02kYHvEfW2bCfbGrrdTMOtocBnTcwh9neGge4wBAn2hkJfUTKBiX8wZNlWNZH9ZvbeMOGor2geRfJryPo9DHM41M48ZhfoJIl9HD/Tc8qfpK411OJU/fQ3Q5S4Ndyci0lf5MBcemlMzlqXWb7AldlNfFm4vpzHDDP7VxqDrFwKvJKpDUdxNLVze2o8jeJRpdL5f2YjU4xtkVEnAAAAAElFTkSuQmCC"
+                        alt="linkedin">  -->
+                    Linkedin
+                </a>
+            </span>
+            <span class="footer__span__redes">
+                <a href="https://es-la.facebook.com/">
+                    <!-- <img class="imagen-Facebook"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCaDRoE5lwkHt9t2hLWnbwKOFDvv4yqROYew&usqp=CAU"
+                        alt="Facebook">  -->
+                    Facebook
+                </a>
+            </span>
+            <span class="footer__span__redes">
+                <a href="https://youtube.com/">
+                    <!-- <img class="imagen-Youtube"
+                    src="https://e7.pngegg.com/pngimages/687/692/png-clipart-youtube-logo-computer-icons-youtube-text-logo.png"
+                    alt="Facebook"> -->
+                    Youtube
+                </a>
+            </span>
     </footer>
 
 </body>
+
 </html>
