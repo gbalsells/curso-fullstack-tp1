@@ -34,7 +34,34 @@
                 <p>Nacido en salta, residiendo en tucuman por estudios</p>
             </article>
         </section>
+
+        <section>
+            <form action="" method="get">
+                <p>
+                    <h2>contactame:</h2>
+                </p>
+                <article>
+                    <fieldset>
+                        <legend>Ingrese sus datos </legend>
+                        <label for="nombreApellido">Nombre y apellido:</label>
+                        <input type="text" id="nombreApellido" placeholder="Su nombre y apellido" >
+
+                        <label for="numero">Numero de telefono:</label>
+                        <input type="number" id="numero" placeholder="381...">
+
+                        <label for="texto">Mensaje a enviar:</label>
+                        <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+
+                        <input type="reset" value="Limpiar">
+                        <input type="submit" value="Enviar" id="submit" onclick="EnviarDatos()">
+                    </fieldset>
+                </article>
+            </form>
+        </section>
+
     </main>
+
+
 
     <footer>
         Todos los derechos reservados - 2022
