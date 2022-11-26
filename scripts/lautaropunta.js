@@ -30,3 +30,24 @@ if (resultado2) {
 
 // Si el resultado3 incluye el numero1 como V, es el mayor
 // Si el resultado3 NO incluye el numero1 y por lo tanto es falso, no aparece como mayor
+
+//TP N5
+
+let contacto = new Object();
+let botonEnviar = document.getElementById("submit");
+botonEnviar.addEventListener("click", EnviarDatos);
+
+function EnviarDatos() {
+  contacto.nombre = document.getElementById("nombreApellido").value;
+  contacto.telefono = document.getElementById("numero").value;
+  contacto.mensaje = document.getElementById("texto").value;
+  if (
+    contacto.nombre === "" ||
+    contacto.telefono === "" ||
+    contacto.telefono === ""
+  ) {
+    alert("Debe completar todos los campos");
+  } else {
+    alert(`Mensaje Enviado! Gracias por contactarte, ${contacto.nombre}!`);
+  }
+}

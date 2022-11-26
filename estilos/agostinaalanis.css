@@ -1,34 +1,31 @@
   header {     
-  font-size: 25px;
-  margin: 30px 20px 10px 25px;
-  height: 70px;  
-  padding: 20px;
+  padding: 10px; 
   text-align: left;
-  background-color: #63a6e5;
   color: #090808;
   }
 
   h2 {    
-    width: 800px;
-    height: 70px;
     background-color: rgb(43, 198, 226);
     color:  white;
-    font-size: 60px;
-    margin: 30px 20px 10px 25px;
+    height: 50px; 
   }
 
   h3 {    
-    width: 800px;
-    height: 50px;
     background-color: rgb(43, 198, 226);
     color:  white;
-    font-size: 40px;
-    margin: 30px 20px 10px 25px;
+    height: 40px;
+  }
+
+  .container {
+    margin: 50px;
+    border: solid rgb(82, 100, 234);
+    border-radius: 20px;
+    padding: 10px;
   }
 
   .datos {
     color:  #0f87ccd8;
-    margin: 30px 20px 10px 25px;
+    margin: 20px 20px 20px 25px;
   }
 
   a {
