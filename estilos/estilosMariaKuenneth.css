@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    font-family: 'Courgette', cursive;
+    text-decoration-color: blueviolet;
+}
+
+/*-- HEADER --*/
+header{
+    font-family: 'Courgette', cursive;
+    margin: unset;
+    background-color: black;
+    color: blueviolet;
+
+}
+.header__imagen{
+    width: 100%;
+    height: 100px;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+.header_div_imagen{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.header__titulo,.header__subtitulo{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.header__subtitulo{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.header__nav{
+    width: auto;
+    size: auto;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header_nav_span{
+    width: auto;
+    size: auto;
+    padding-left: 12%;
+    text-decoration: none;
+}
+.imagen-Instagram, .imagen-Linkedin,.imagen-Facebook,.imagen-Youtube{
+    width: 50px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+/*-- SECTION PRESENTACION --*/
+section{
+   
+    background-color: rgb(210, 165, 252);
+    padding: 3%;
+}
+.section__div{
+    padding: 5%;
+    background-color: white;
+}
+.section_article_p, .section_article_li, .section_article_h{
+    font-family: 'Noto Sans', sans-serif;
+}
+article{
+    background-color: white;
+    margin: 0%;
+    border: 0%;
+}
+/*-- FOOTER --*/
+footer{
+    padding: 3%;
+    background-color: black;
+    color: white;
+    margin-bottom: 0%;
+    margin-top: auto;
+    height: 10%;
+}
+.footer__a{
+    text-align: right;
+}
+#siguemeRedesSociales{
+    padding-right: 20%;
+}
+.footer__span__redes{
+    size: auto;
+    padding-left: 50px;
+    padding-top: 20px;
+}
