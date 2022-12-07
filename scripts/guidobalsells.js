@@ -1,4 +1,4 @@
-function sendInfo(arr) {
+function sendInfo() {
   let contactInfo = {}
 
   let inputName = document.querySelector('#nombre').value
