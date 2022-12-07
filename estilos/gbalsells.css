@@ -171,6 +171,44 @@ footer a svg {
   width: 12px;
 }
 
+.contactame {
+  margin-bottom: 3em;
+}
+
+.contactame__form {
+  max-width: 500px;
+}
+
+.contactame__form div {
+  display: flex;
+  align-items: baseline;
+  margin-top: 1em;
+}
+
+.contactame__form div input,
+textarea {
+  margin-left: 1rem;
+  flex-grow: 1;
+}
+
+.contactame__form button {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  background-color: #483d8b;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 7px
+}
+
+.contactame__form button:hover {
+  background-color: #6d5dd3;
+}
+
+.contactame__form button:active {
+  background-color: black;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 24px;
