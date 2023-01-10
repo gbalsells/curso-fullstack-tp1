@@ -178,3 +178,23 @@ span {
         justify-content: center;
     }
 }
+
+.contactame {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    background-image: url("http://3.bp.blogspot.com/-E8HScVkguwg/URZFLzDn3qI/AAAAAAAACwk/7JuTx40vpb4/s1600/IRONMAN+TITULO+2.jpg");
+    background-size: auto;
+}
+
+.contactame_form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

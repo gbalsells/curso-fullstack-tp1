@@ -34,8 +34,29 @@ if (resultado2.indexOf(numero1 * numero2) !== -1) {
     } else {
         console.log(`El numero2 es el mayor`);
     }
-    
+
 } else {
     console.log("Se produjo un error. No se puede mostrar que valor es el mayor");
 }
 
+//-------------------------------- TP5 --------------------------------
+
+function enviarDatos() {
+    let usuario = {}
+
+    // Registro de los datos
+    let nombreCompleto = document.querySelector('#apellido').value + ", " + document.querySelector('#nombre').value
+    let numeroTelefonico = document.querySelector('#telefono').value
+    let mensajeEscrito = document.querySelector('#mensaje').values
+
+    // Mensajes por pantalla
+    if (nombreCompleto === "" || numeroTelefonico === "" || mensajeEscrito === "") {
+
+        alert("Debe completar todos los campos")
+    } else {
+        usuario.nombre = nombreCompleto
+        usuario.telefono = numeroTelefonico
+        usuario.mensaje = mensajeEscrito
+        alert(`Mensaje Enviado! Gracias por contactarte, ${usuario.nombre}`)
+    }
+}
