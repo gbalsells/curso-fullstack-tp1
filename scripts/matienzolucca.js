@@ -1,4 +1,4 @@
-//Trabajo Práctico N4
+/*//Trabajo Práctico N4
 
 //Punto 1
 let numero1, numero2
@@ -27,4 +27,20 @@ if(resultado3.includes("1")){
    console.log("Numero 1 es mayor que numero 2")
 } else {
     console.log("Numero 2 es mayor que numero 1")
+}
+*/
+//Trabajo Práctico N5
+
+function enviarFormulario(){
+    let contacteme = new Object();
+    contacteme.nombre= document.getElementById("Nombre").value+ " " +document.getElementById("Apellido").value,
+    contacteme.numero= document.getElementById("Número").value
+    contacteme.mensaje= document.getElementById("Mensaje").value
+if (contacteme.nombre == "" ||  contacteme.numero == "" ||  contacteme.mensaje == ""){
+    alert("Debe completar todos los campos")
+    }
+else{
+    alert(`Mensaje Enviado! Gracias por contactarte, ${contacteme.nombre}.`)
+    console.log(`Nombre: ${contacteme.nombre}, Número: ${contacteme.numero}, Mensaje: ${contacteme.mensaje}`);
+}
 }

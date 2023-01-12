@@ -6,6 +6,7 @@
     <meta name="author" content="Lucca Nicolás Matienzo" />
     <link rel="shortcut icon" href="https://cdn.nba.com/teams/legacy/www.nba.com/pelicans/sites/pelicans/files/otc_brandon_ingram.jpg" type="image/x-icon">
     <script src="./scripts/matienzolucca.js"></script>
+    <link rel="stylesheet" href="./estilos/matienzolucca.css">
     <title>BI - TP2</title>
     <style>
         table,tr,th, td,
@@ -171,6 +172,28 @@
         </table>
     </section>
     <br>
+    <section id="contacteme-container">
+        <h2 style="color: black;">Contacteme</h2>
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre">
+        </div>
+        <div>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido">
+        </div>
+        <div>
+            <label for="Número">Número:</label>
+            <input type="number" id="Número">
+        </div>
+        <div>
+            <label for="Mensaje">Deje su mensaje:</label>
+            <textarea id="Mensaje" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button onclick="enviarFormulario()" id="Enviar">Enviar</button>
+        </div>
+    </section>
   </body>
   <footer>
     <p> <b>Autor:</b> Lucca Nicolás Matienzo - Facet - UNT</p>
