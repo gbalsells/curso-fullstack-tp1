@@ -18,9 +18,30 @@ video{
 a{
     text-decoration: none;
 }
+
+.navegar{
+    margin-top: 15px;
+}
+#navegar{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 15px;
+    width: min-content;
+    border-width: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+}
 #barraNav, .intro{
     font-family: 'Rowdies', cursive;
     color: aliceblue;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
 }
 
     /*Sección introducción*/
