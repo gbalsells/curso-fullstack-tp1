@@ -1,0 +1,90 @@
+/*General*/
+body{
+    background-color: none;
+}
+header, footer{
+    background-color: grey;
+}
+video{
+    width: 100%;
+}
+
+/*Header*/
+    /*Barra de navegación*/
+#listaNone{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+#barraNav, .intro{
+    font-family: 'Rowdies', cursive;
+    color: aliceblue;
+}
+
+    /*Sección introducción*/
+.intro{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+#subtitle{
+    margin-bottom: 0.5em;
+    margin-top: 0em;
+}
+#title{
+    margin-bottom: 0em;
+}
+#intro{
+    font-size: 1.2em;
+}
+
+/*Sección About me*/
+.principal{ 
+    font-family: 'Sofia Sans', sans-serif;
+    padding-top: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 3%;
+} /*Lo tienen todas las secciones*/
+
+/*Sección Skills, Software and Tools*/
+#section2{
+    background-color: rgb(214, 214, 214);
+    
+}
+
+/*Sección Contact*/
+
+label{
+    font-family: 'Sofia Sans', sans-serif;
+    margin-right: 1em;
+    padding-left: 0.5em;
+}
+#message{
+    height: 100px;
+}
+#sugerencia{
+    margin-top: 5em;
+}
+#contactLinks{
+    text-align: center;
+}
+a > #contactLink{
+    width: 40px;
+    padding: 1em;
+}
+
+
+/*Footer*/
+img{
+    width: 35px;
+}
+.websites{
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+

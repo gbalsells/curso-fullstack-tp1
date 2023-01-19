@@ -7,109 +7,184 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Sofia+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./AnaKuenneth.css">
     <title>TP N°3</title>
-    <style>
-        #none{
-            list-style-type: none;
-        }
-    </style>
 </head>
 <body>
+    <!--BARRA NAVEGACION E INTRO-->
     <header>
-        <nav>
-            <h1>Ana Kuenneth - Computation Engineering Student</h1>
-            <ul id="none">
+        <nav id="barraNav">
+            <span>Ana Kuenneth - COMPUTATION ENGINEERING STUDENT</span>
+            <ul id="listaNone">
                 <li>
-                    <a href="">Portfolio</a> <!--Inicio, introduccion a la persona, reciente como cursos e imagenes mostrados por bloques pequeños con animacion de css  -->
+                    <a href="">PORTFOLIO</a> <!--Inicio, introduccion a la persona, about me (Persona en sí, actividades extracurrilculares, vida académica y pasiones), skills y softaware and tools, contacto-->
                 </li>
                 <li>
-                    <a href="">About</a> <!--Persona en sí, actividades extracurrilculares, vida académica y pasiones-->
+                    <a href="">EXPERIENCE & PROJECTS</a> <!--Trabajo y formación. Proyectos con imagenes, explicacion y links del proyecto en GitHub-->
                 </li>
                 <li>
-                    <a href="">Experience</a> <!--Trabajo y formación-->
+                    <a href="">CONTACT</a> <!--Envía al final de la página de inicio, sección para formulario, se puede ver el footer con las redes sociales-->
                 </li>
-                <li>
-                    <a href=""">Projects</a> <!--Proyectos con imagenes, explicacion y links del proyecto en GitHub-->
-                </li>
-                <li>
-                    <a href="">Contact</a> <!--Envía al final de la página de inicio, sección para formulario, se puede ver el footer con las redes sociales-->
-                </li>
+                <li><a href="">RESUME</a></li> <!--Pagina html mas simple, solo accede a un documento para descargar CV-->
             </ul>
         </nav>
-    </header>
-    <section>
-        <h3>Introduction</h3>
-        <p>
-            Mi nombre es Ana Rosa Soria Kuenneth. Soy estudiante de la carrera Ingeniería en Computación de la Facultad de Ciencias Exactas y Tecnología de la Universidad Nacional de Tucumán (FACET - UNT) de Argentina.</p>
-        <br>
-        <p>Actualmente estoy estudiando y trabajando en algunos proyectos con distintas empresas y de manera independiente.</p>
-        <br>
-        <p>Seguido encontraras mi portfolio junto con mis proyectos, experiencia laboral y un poco acerca de mí y mi vida académica.</p>
-        <!--<p>
-             <h2>Datos personales</h2>
-                <ul>
-                    <li id="none">Nombre completo: Soria Kuenneth, Ana Rosa</li>
-                    <li id="none">Lugar y fecha de nacimiento: San Miguel de Tucumán el día 06 de diciembre del año 2001</li>
-                    <li id="none">Edad: 20 años</li>
-                    <li id="none">DNI número: 43.648.882</li>
-                    <br>
-                    <li id="none">Pasaje Paraná 1765, San Miguel de Tucumán, Tucumán, Argentina</li>
-                    <li id="none">anakuenneth@gmail.com</li>
-                    <li id="none">Teléfono de contacto: </li>
-                </ul>  
-        </p>-->
-    </section>
-    <section>
-        <h3>Contact</h3>
-        <form action="">
-            <label for="">Nombre: </label><input type="text">
-            <label for="">E-mail: </label><input type="email">
-            <label for="">Message</label><input type="text">
-            <input type="button">
-        </form>
-        <!-- <h2>Formacion academica y laboral</h2>
 
-        <p>Egresada del colegio Santa Catalina.</p>
-        <p>Jardín de infantes, educación primaria, educación secundaria.</p>
-        <p>Generación/ promoción 2019.</p>
-        <p>Orientación a las Ciencias Naturales</p>
-        <p>Alumna del cuadro de honor en primaria y secundaria.</p>
-        <p>Promedio educación secundaria de 8.3</p>
-        <br>
-        <p>Universidad Nacional de Tucumán - Tucumán</p>
-        <p>Facultad de Ciencias Exactas y Tecnología</p>
-        <p>Actual estudiante de la carrera Ingeniería en Computación</p>
-        <p>Año de ingreso: 2020</p>
-        <br>
-        <ul>
-            <li id="none"><b>Instituciones en las que estudió</b></li>
-            <li>Colegio Santa Catalina</li>
-            <li>Centro de Estudios del Tucumán</li>
-            <li>CIIDEP</li>
-            <li>Globant</li>
-            <li>Instituto Rush</li>
-            <li>Universidad Tecnologica Nacional</li>
-            <li>Universidad Nacional de Tucumán</li>
-        </ul> -->
+        <video src="./assets_AnaKuenneth/background.mp4" autoplay="true" muted="true" loop="true"></video>
+
+        <article class="intro">
+            <h1 id="title">ANA KUENNETH</h1>
+            <h3 id="subtitle">COMPUTATION ENGINEERING STUDENT</h3>
+            <p id="intro">Mi nombre es Ana Rosa Soria Kuenneth. Soy estudiante de la carrera Ingeniería en Computación de la Facultad de Ciencias Exactas y Tecnología de la Universidad Nacional de Tucumán (FACET - UNT) de Argentina.</p>
+            <p id="intro">Actualmente estoy estudiando y trabajando en algunos proyectos con distintas empresas y de manera independiente.</p>
+            <p id="intro">Seguido encontraras mi portfolio junto con mis proyectos, experiencia laboral y un poco acerca de mí y mi vida académica.</p>
+                
+        </article>
+        
+    </header>
+
+    <!--ABOUT ME-->
+    <section class="principal">
+        <h2>ABOUT ME</h2>
+        <div>
+            <p>
+                Nombre completo: Soria Kuenneth, Ana Rosa
+                Lugar y fecha de nacimiento: San Miguel de Tucumán el día 06 de diciembre del año 2001
+                Edad: 21 años
+                DNI número: 43.648.882
+            </p>
+            <p>
+                Egresada del colegio Santa Catalina.
+                Jardín de infantes, educación primaria, educación secundaria.
+                Generación/ promoción 2019.
+                Orientación a las Ciencias Naturales
+                Alumna del cuadro de honor en primaria y secundaria.
+                Promedio educación secundaria de 8.3
+
+                Universidad Nacional de Tucumán - Tucumán
+                Actual estudiante de la carrera Ingeniería en Computación
+                Año de ingreso: 2020
+            </p>
+            <p>
+                Predispuesta, alegre, creativa, respetuosa, ordenada y bien organizada. Motivada por la resolución de problemas. Optimista y objetiva ante situaciones problemáticas. Comprensiva y paciente. Responsable, cumplimiento de fechas de entrega. Colaboradora y eficiente. Perfeccionista y prolija. Elocuente. Humilde.
+
+                Siempre me motivó el aprendizaje. He participado en el colegio al que asistí  desde los nueve hasta los diecisiete años en torneos de matemática amistosos y competitivos organizada por la institución, la provincia y el país (Olimpíadas Ñandú, Olimpiada Matemática Argentina, Torneo de las Cuencas Tala - Salí - Dulce), en torneos literarios de mi institución y en el del Instituto Técnico Gral. Belgrano de Banda del Río Salí, en dónde en ambos ambientes obtuve muy buenos puestos, y también en exámenes de inglés internacionales por mi recorrido en la institución. 
+                A su vez, también me he preocupado por mi crecimiento personal, social y espiritual, participé de voluntariados organizados por la Congregación de Hermanas Dominicas en los pueblos de Benjamín Paz y Villa Vieja y en el Oratorio de verano de la congregación Salesiana como participante y finalmente como animadora en el año 2020. Desde el año 2015 hasta el día de hoy participo en un Movimiento Juvenil de la Congregación Salesiana llamado Mallín en el cual motiva a los chicos que asisten a vivir la vida de manera distinta y de un modo cristiano. En el año 2020 ascendí como animadora y guía de los chicos que asisten.
+                Provengo de una familia sencilla, trabajadora, firme y de buena educación.
+            </p>
+        </div>
     </section>
+
+    <!--SKILLS, SOFTWARE AND TOOLS-->
+    <section class="principal" id="section2">
+        <div>
+            <h2>SKILLS</h2>
+            <p>
+                <h4>Game Design</h4>
+                <ul id="listaNone">
+                    <li>Level Design</li>
+                    <li>Puzzle Design</li>
+                    <li>Narrative Design</li>
+                    <li>General Game Design</li>
+                    <li>Gamification</li>
+                </ul>
+
+                <h4>Cognitive Psychology</h4> 
+                <ul id="listaNone">
+                    <li>Engagement and Motivation</li>
+                    <li>Behavioral Change</li>
+                    <li>Cognitive Ergonomics</li>
+                    <li>Human-Computer Interaction</li>
+                </ul>
+                
+                <h4>Research</h4> 
+                <ul id="listaNone">
+                    <li>QA Testing</li>
+                    <li>Usability Design and Testing</li>
+                    <li>Research and Data Analysis</li>
+                </ul>
+                
+                <h4>Production</h4> 
+                <ul id="listaNone">
+                    <li>Scrum Development</li>
+                </ul>
+                
+
+                <h4>Languages</h4> 
+                <ul id="listaNone">
+                    <li>Fluent in Spanish, English and Deutsch</li>
+                </ul>
+            </p>
+        </div>
+        <div>
+            <h2>Software & Tools</h2>
+            <ul>
+                <li>Curso de Microsoft Word evaluado por CCFC de la Universidad Tecnológica Nacional - Resolución N° 1869/13 de fecha 29 de noviembre de 2013</li>
+                <li>Curso de Microsoft Excel Básico evaluado por CCFC de la Universidad Tecnológica Nacional - Resolución N° 504/14 de fecha 23 de julio de 2014</li>
+                <li>Curso de Microsoft Movie Maker y Scratch evaluado por CCFC de la Universidad Tecnológica Nacional - Resolución N° 1605/15 de fecha 23 de octubre de 2015</li>
+                <li>Curso de Scratch Avanzado evaluado por CCFC de la Universidad Tecnológica Nacional - Resolución N° 1074/16 de fecha 23 de junio de 2016</li>
+                <li>Curso y Laboratorio de Robótica Competitiva de la Universidad Tecnológica Nacional - Resolución 705/2019 en los meses de junio y agosto de 2019</li>
+                <li>Trinity College London - Graded Examination in Spoken English - ESOL International Grade 1 - December 2011 - Grade: DISTINCTION / 028988: 10346674</li>
+                <li>Trinity College London - Graded Examination in Spoken English - Entry Level in ESOL International Grade 6 - CEFR Level B1.2- December 2016 - Grade: MERIT / Qualification accreditation number: 500/1934/X . 1-595405795: 1-595597467</li>
+                <li>Trinity College London - Graded Examination in Spoken English - Level 1 in ESOL International Grade 7 - CEFR Level B2.1- December 2017 - Grade: MERIT / Qualification accreditation number: 500/1997/1 . 1-801962931: 1-802082673</li>
+                <li>Anglia Examinations England - AIM QUALIFICATIONS - ESOL International - ADVANCED level - CEFR Level B2 - December 2019 - Grade: MERIT - 74210651558DED60 / 7421065155</li>
+                <li>Programación en C</li>
+                <li>Programación en Java</li>
+                <li>Programación en JavaScript</li>
+                <li>Desarrollo web en HTML y CSS</li>
+                <li>Desarrollo de API's en</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--CONTACT-->
+    <section class="principal" id="contact">
+        <h2>CONTACT</h2>
+        <form action="">
+            <label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre">
+            <label for="email">E-mail: </label><input type="email" name="email" id="email">
+            <label for="message">Message</label><input type="text" name="message" id="message">
+            <br>
+            <input type="submit">
+        </form>
+        <p id="sugerencia">Me puedes contactar a través de la casilla de mensajes, e-mail o LinkedIn</p>
+        <div id="contactLinks">
+            <span>
+                <a href="https://www.gmail.com"><img src="./assets_AnaKuenneth/mail-inbox-app.png" alt="" id="contactLink"></a>
+                <a href="https://www.linkedin.com/in/ana-kuenneth-70568a247" target="_blank"><img src="./assets_AnaKuenneth/linkedin.png" alt="" id="contactLink"></a>
+            </span>
+        </div>
+    </section>
+    
+    <!--FOOTER-->
     <footer>
-        <nav>
-            <ul id="none">
+        <nav class="websites">
+            <ul id="listaNone">
                 <li>
-                    <a href="">Instagram</a> 
+                    <a href="https://www.facebook.com/anita.kuenneth?mibextid=ZbWKwL"><img src="./assets_AnaKuenneth/facebook.png" alt=""></a><!--Facebook-->
                 </li>
                 <li>
-                    <a href="https://www.github.com/Ana-Kuenneth" target="_blank">GitHub</a>
+                    <a href="https://instagram.com/anita_kuenneth?igshid=ZmZhODViOGI="><img src="./assets_AnaKuenneth/logotipo-de-instagram.png" alt=""></a> <!--Instagram-->
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/ana-kuenneth-70568a247" target="_blank">Linkedin</a>
+                    <a href="https://www.github.com/Ana-Kuenneth" target="_blank"><img src="./assets_AnaKuenneth/github.png" alt=""></a><!--Github-->
                 </li>
                 <li>
-                    <a href="">Discord</a>
+                    <a href="https://www.linkedin.com/in/ana-kuenneth-70568a247" target="_blank"><img src="./assets_AnaKuenneth/linkedin.png" alt=""></a><!--LinkedIn-->
+                </li>
+                <li>
+                    <a href=""><img src="./assets_AnaKuenneth/discord.png" alt=""></a><!--Discord-->
                 </li>
             </ul>
         </nav>
-        &copy;Copyright 2023 Ana Rosa Soria Kuenneth - Curso FullStack Guido Ballsels - 17/01/23
+        &copy;Copyright 2023 Ana Rosa Soria Kuenneth - Curso FullStack Guido Ballsels - 18/01/23
     </footer>
 </body>
 </html>
