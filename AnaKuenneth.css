@@ -2,7 +2,7 @@
 body{
     background-color: none;
 }
-header, footer{
+footer{
     background-color: grey;
 }
 video{
@@ -14,11 +14,9 @@ video{
 #listaNone{
     list-style-type: none;
 }
-
 a{
     text-decoration: none;
 }
-
 .navegar{
     margin-top: 15px;
 }
@@ -35,10 +33,22 @@ a{
     border-style: solid;
     border-color: aliceblue;
 }
+#barraNav{
+    position: absolute;
+    top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: center;
+    justify-content: space-between;  
+
+    width: 95%;
+}
 #barraNav, .intro{
     font-family: 'Rowdies', cursive;
     color: aliceblue;
-    padding-top: 35px;
+    padding-top: 30px;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 35px;
@@ -49,6 +59,9 @@ a{
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
+
+    position: absolute;
+    top: 200px
 }
 #subtitle{
     margin-bottom: 0.5em;
@@ -68,6 +81,8 @@ a{
     padding-left: 7%;
     padding-right: 7%;
     padding-bottom: 3%;
+
+    z-index: 2;
 } /*Lo tienen todas las secciones*/
 
 /*Sección Skills, Software and Tools*/
@@ -75,9 +90,21 @@ a{
     background-color: rgb(214, 214, 214);
     
 }
+#section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#section2>div{
+    width: 50%;
+}
 
 /*Sección Contact*/
-
 label{
     font-family: 'Sofia Sans', sans-serif;
     margin-right: 1em;
@@ -106,6 +133,15 @@ img{
     padding-top: 10px;
     text-align: center;
 }
-
+.alinearFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+.websites > ul > li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 

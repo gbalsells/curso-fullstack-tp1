@@ -1,6 +1,8 @@
-<!--TP3 - Soria Kuenneth Ana Rosa-->
+<!--TP4 - Soria Kuenneth Ana Rosa-->
 <!--https://zyro.com/es/blog/ejemplos-de-portfolio/-->
-<!--Segundo boceto de portfolio web personal-->
+<!--Tercer boceto de portfolio web personal-->
+<!--Se agrega el script del TP4-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +18,9 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./AnaKuenneth.css">
-    <title>TP N°3</title> 
+
+    <script src="./scripts/anaKuenneth.js"></script>
+    <title>TP N°4</title> 
 </head>
 <body>
     <!--BARRA NAVEGACION E INTRO-->
@@ -78,11 +82,11 @@
 
     <!--SKILLS, SOFTWARE AND TOOLS-->
     <section class="principal" id="section2">
-        <div>
+        <div id="skills">
             <h2>SKILLS</h2>
             <p>
                 <h4>Game Design</h4>
-                <ul id="listaNone">
+                <ul class="flex_column" id="listaNone">
                     <li>Level Design</li>
                     <li>Puzzle Design</li>
                     <li>Narrative Design</li>
@@ -91,7 +95,7 @@
                 </ul>
 
                 <h4>Cognitive Psychology</h4> 
-                <ul id="listaNone">
+                <ul class="flex_column" id="listaNone">
                     <li>Engagement and Motivation</li>
                     <li>Behavioral Change</li>
                     <li>Cognitive Ergonomics</li>
@@ -99,25 +103,25 @@
                 </ul>
                 
                 <h4>Research</h4> 
-                <ul id="listaNone">
+                <ul class="flex_column" id="listaNone">
                     <li>QA Testing</li>
                     <li>Usability Design and Testing</li>
                     <li>Research and Data Analysis</li>
                 </ul>
                 
                 <h4>Production</h4> 
-                <ul id="listaNone">
+                <ul class="flex_column" id="listaNone">
                     <li>Scrum Development</li>
                 </ul>
                 
 
                 <h4>Languages</h4> 
-                <ul id="listaNone">
+                <ul class="flex_column" id="listaNone">
                     <li>Fluent in Spanish, English and Deutsch</li>
                 </ul>
             </p>
         </div>
-        <div>
+        <div id="sAndT">
             <h2>Software & Tools</h2>
             <ul>
                 <li>Curso de Microsoft Word evaluado por CCFC de la Universidad Tecnológica Nacional - Resolución N° 1869/13 de fecha 29 de noviembre de 2013</li>
@@ -160,7 +164,7 @@
     <!--FOOTER-->
     <footer>
         <nav class="websites">
-            <ul id="listaNone">
+            <ul class="alinearFooter" id="listaNone">
                 <li>
                     <a href="https://www.facebook.com/anita.kuenneth?mibextid=ZbWKwL"><img src="./assets_AnaKuenneth/facebook.png" alt=""></a><!--Facebook-->
                 </li>
