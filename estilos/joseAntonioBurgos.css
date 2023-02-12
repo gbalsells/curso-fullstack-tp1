@@ -11,10 +11,10 @@ nav{
     display: flex;
 }
 
-header,footer>p{
+header,footer{
     background-color: rgb(36, 41, 56);
     color: white;
-    padding: 15px;
+    padding: 15px 20px;
 }
 
 #barra-iconos{
@@ -30,7 +30,7 @@ img{
     height: 20px;
 }
 
-h2,#margenEstudios{
+#margenEstudios{
     margin-bottom: 20px;
 }
 
@@ -38,9 +38,8 @@ a{
     text-decoration: none;
 }
 
-h2{
-    text-decoration: underline;
-    text-shadow: 1px 2px 5px grey;
+main{
+    margin: 25px 0px;
 }
 
 .cuadrosDeDatos{
@@ -53,6 +52,12 @@ h2{
 
 .cuadrosDeDatos:hover{
     transform: scale(1.01);
+}
+
+.cuadrosDeDatos>h2{
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-shadow: 1px 2px 5px grey;
 }
 
 section>p{
@@ -75,13 +80,15 @@ span{
     font-weight: bold;
 }
 
-footer>h2{
-    margin: 0 20px 20px;
+#barra-iconos-footer{
+    text-align: center;
+    padding: 10px;
 }
 
-footer>p{
-    margin-top: 20px;
+footer{
+    padding: 20px;
     text-align: center;
+    text-shadow: 1px 2px 5px grey;
 }
 
 
