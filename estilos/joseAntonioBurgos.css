@@ -7,17 +7,30 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-h1,footer>p{
+nav{
+    display: flex;
+}
+
+header,footer>p{
     background-color: rgb(36, 41, 56);
     color: white;
     padding: 15px;
+}
+
+#barra-iconos{
+    margin-left: auto;
+    padding-top: 4px;
+}
+
+.item-lista{
+    display: inline-block;
 }
 
 img{
     height: 20px;
 }
 
-h1,h2,#margenEstudios{
+h2,#margenEstudios{
     margin-bottom: 20px;
 }
 
@@ -30,16 +43,32 @@ h2{
     text-shadow: 1px 2px 5px grey;
 }
 
-section{
+.cuadrosDeDatos{
     margin: 20px;
-} 
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px grey;
+    transition: 400ms;
+}
+
+.cuadrosDeDatos:hover{
+    transform: scale(1.01);
+}
 
 section>p{
     padding-bottom: 20px;
 }
 
 .icono{
-    margin: 0px 10px 0px 20px;
+    margin: 0px 0px 0px 10px;
+    background-color: white;
+    border-radius: 5px;
+    transition: 400ms;
+}
+
+.icono:hover{
+    box-shadow: 0px 0px 5px grey;
+    transform: scale(1.2);
 }
 
 span{
