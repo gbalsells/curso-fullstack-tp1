@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP 2 Curso Full Stack</title>
+    <title>TP 5 Curso Full Stack</title>
     <meta name="author" content="José Antonio Burgos">
     <meta name="keywords" content="datos personales, cv, experiencia laboral, redes sociales">
     <meta name="description" content="Página web presentación">
-    <style>
-        
-       
-    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="estilos/joseAntonioBurgos.css">
+    <script src="scripts/joseAntonioBurgos.js"></script>
 </head>
 <body>
     <header>
@@ -75,18 +72,18 @@
                 <h2>Contáctame</h2>
                 <div>
                     <label for="nombre">Nombre y apellido</label>
-                    <input type="text" id="nombre" class="input-Form" placeholder="Juan Perez">
+                    <input type="text" id="nombre" class="input-Form" placeholder="Juan Perez" required>
                 </div>
                 <div>
                     <label for="telefono">Teléfono</label>
-                    <input type="tel" id="telefono" class="input-Form" placeholder="381 XXXX XXX">
+                    <input type="number" id="telefono" class="input-Form" placeholder="381 XXXX XXX" required>
                 </div>
                 <div>
                     <label for="mensaje">Escribe tu mensaje</label>
-                    <textarea name="" id="" cols="30" rows="7" id="mensaje" class="input-Form" placeholder="Escribe aquí tu mensaje..."></textarea>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="7" class="input-Form" placeholder="Escribe aquí tu mensaje..." required></textarea>
                 </div>
                 <div class="boton-form">
-                    <button>Enviar</button>
+                    <button onclick='enviarDatos(event)'>Enviar</button>
                 </div>
             </form>
         </section>
