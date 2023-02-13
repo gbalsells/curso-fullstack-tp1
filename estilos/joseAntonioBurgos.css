@@ -80,6 +80,63 @@ span{
     font-weight: bold;
 }
 
+.formulario{
+    margin: 40px 0px;
+}
+
+form>h2{
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-shadow: 1px 2px 5px grey;
+    text-align: center;
+}
+
+form{
+    width: 40%;
+    background-color: whitesmoke;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 5px 10px 20px grey;
+    transition: 400ms;
+}
+
+form:hover{
+    transform: scale(1.01);
+}
+
+label{
+    display: block;
+}
+
+.input-Form{
+    padding: 5px 0 5px 5px;
+    margin: 5px 0px 15px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.boton-form{
+    text-align: right;
+}
+
+button{
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    transition: 400ms;
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px dodgerblue;
+    cursor: pointer;
+    background-color: dodgerblue;
+    transform: scale(1.1);
+}
+
 #barra-iconos-footer{
     text-align: center;
     padding: 10px;
